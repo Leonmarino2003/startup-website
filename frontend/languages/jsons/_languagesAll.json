@@ -1,0 +1,1664 @@
+{
+  "Home": {
+    "sv-SE": "Hem",
+    "en-GB": "Home",
+    "de-DE": "Zuhause",
+    "es-ES": "Casa"
+  },
+  "CreateAccount": {
+    "sv-SE": "Skapa Konto",
+    "en-GB": "Create Account"
+  },
+  "navSwitchBids": {
+    "sv-SE": "Mina bud",
+    "en-GB": "Bids"
+  },
+  "navSwitchSaved": {
+    "sv-SE": "Sparade",
+    "en-GB": "Saved"
+  },
+  "bidProgressBidPlaced": {
+    "sv-SE": "Budet placerat",
+    "en-GB": "Bid placed"
+  },
+  "bidProgressBidPlacedDesc1": {
+    "sv-SE": "Ditt bud har blivit placerat på plotten",
+    "en-GB": "Your bid has been placed on the plot"
+  },
+  "bidProgressBidPlacedDesc2": {
+    "sv-SE": "placerat på plotten",
+    "en-GB": "on the plot"
+  },
+  "bidProgressBidSent": {
+    "sv-SE": "Budet skickat",
+    "en-GB": "Bid sent"
+  },
+  "bidProgressBidRecieved": {
+    "sv-SE": "Budet mottagits",
+    "en-GB": "Bid recieved"
+  },
+  "bidProgressBidSentDesc1": {
+    "sv-SE": "Ditt bud har skickats till Ploteye.",
+    "en-GB": "Your bid has been sent to ploteye."
+  },
+  "bidProgressBidSentDesc2": {
+    "sv-SE": "Ploteye kommer att kontakta markägaren.",
+    "en-GB": "Ploteye will contact the land owner."
+  },
+  "bidProgressBidRecievedDesc1": {
+    "sv-SE": "Markägaren har mottagit",
+    "en-GB": "The land owner has recieved"
+  },
+  "bidProgressBidRecievedDesc2": {
+    "sv-SE": "ditt bud",
+    "en-GB": "your bid."
+  },
+  "bidProgressDecision": {
+    "sv-SE": "Accepterad eller nekad",
+    "en-GB": "Accepted or denied"
+  },
+  "bidStatusHeader": {
+    "sv-SE": "Bud Accepterad",
+    "en-GB": "Bid Accepted"
+  },
+  "bidStatusOperationCost": {
+    "sv-SE": "Driftkostnad",
+    "en-GB": "Operation cost"
+  },
+  "bidStatusMonthlyCost": {
+    "sv-SE": "SEK/månad",
+    "en-GB": "SEK/month"
+  },
+  "bidStatusFloorPlan": {
+    "sv-SE": "Planritning",
+    "en-GB": "Floor Plan"
+  },
+  "bidStatusMessageOwner": {
+    "sv-SE": "Meddela ägare",
+    "en-GB": "Message Owner"
+  },
+  "bidStatusBidDenied": {
+    "sv-SE": "Bud nekad",
+    "en-GB": "Bid denied"
+  },
+  "bidStatusPlaceNewBidBtn": {
+    "sv-SE": "Placera nytt bud",
+    "en-GB": "Place New Bid"
+  },
+  "bidStatusProgress": {
+    "sv-SE": "Bud Process",
+    "en-GB": "Bid Progress"
+  },
+  "NewBidBtn": {
+    "sv-SE": "Nytt Bud",
+    "en-GB": "New Bid"
+  },
+  "language": {
+    "sv-SE": "Svenska",
+    "en-GB": "English"
+  },
+  "home": {
+    "sv-SE": "Hem",
+    "en-GB": "Home"
+  },
+  "flag": {
+    "sv-SE": "SweFlag.png",
+    "en-GB": "EngFlag.png"
+  },
+  "addressHeader": {
+    "sv-SE": "Adress",
+    "en-GB": "Address"
+  },
+  "myProfileBtn": {
+    "sv-SE": "Min profil",
+    "en-GB": "My profile"
+  },
+  "messageBtn": {
+    "sv-SE": "Meddelande",
+    "en-GB": "Messages"
+  },
+  "myBidsAndFavoritesBtn": {
+    "sv-SE": "Mina Bud & Favoriter",
+    "en-GB": "My Bids & Favorites"
+  },
+  "supportBtn": {
+    "sv-SE": "Kundtjänst",
+    "en-GB": "Support"
+  },
+  "FAQbtn": {
+    "sv-SE": "FAQ",
+    "en-GB": "FAQ"
+  },
+  "searchBtnText": {
+    "sv-SE": "Sök",
+    "en-GB": "Search"
+  },
+  "menuBtnText": {
+    "sv-SE": "Meny",
+    "en-GB": "Menu"
+  },
+  "settingsBtn": {
+    "sv-SE": "Inställningar",
+    "en-GB": "Settings"
+  },
+  "moreInfoBtn": {
+    "sv-SE": "Mer info",
+    "en-GB": "More info"
+  },
+  "placeBidBtn": {
+    "sv-SE": "Lägg bud",
+    "en-GB": "Place bid"
+  },
+  "registerBtn": {
+    "sv-SE": "Registrera",
+    "en-GB": "Sign up"
+  },
+  "registerHeader": {
+    "sv-SE": "Registrera dig med din E-mail",
+    "en-GB": "Register with your E-mail"
+  },
+  "registerInfoText": {
+    "sv-SE": "för att ta emot ägarens svar på ditt bud",
+    "en-GB": "to receive the owner's response to your bid"
+  },
+  "registerWithEmailBtn": {
+    "sv-SE": "Registrera dig med Email",
+    "en-GB": "Register with Email"
+  },
+  "loginWithEmailBtn": {
+    "sv-SE": "Logga in med Email",
+    "en-GB": "Log in with Email"
+  },
+  "loginWithEmailHeader": {
+    "sv-SE": "Logga in med email",
+    "en-GB": "Log in with Email"
+  },
+  "emailExistAlready": {
+    "sv-SE": "Email finns redan registrerad",
+    "en-GB": "Email already exists"
+  },
+  "emailInput": {
+    "sv-SE": "E-mail",
+    "en-GB": "Email"
+  },
+  "passwordInput": {
+    "sv-SE": "Lösenord",
+    "en-GB": "Password"
+  },
+  "resetCodeInput": {
+    "sv-SE": "Återställningskod",
+    "en-GB": "Reset code"
+  },
+  "resetPasswordHeader": {
+    "sv-SE": "Ange uppgifterna nedan för att återställa ditt lösenord",
+    "en-GB": "Enter the details below to reset your password"
+  },
+  "resetPasswordBtn": {
+    "sv-SE": "Nytt lösenord",
+    "en-GB": "New password"
+  },
+  "passwordResetCodeInvalid": {
+    "sv-SE": "Återställningskoden är felaktig.",
+    "en-GB": "Invalid reset code"
+  },
+  "passwordResetCodeMissing": {
+    "sv-SE": "Återställningskoden hittades inte, en ny har skickats till din e-post.",
+    "en-GB": "The reset code is missing, a new one has been sent to your email."
+  },
+  "passwordResetCodeExpired": {
+    "sv-SE": "Återställningskoden du angav har gått ut, en ny har skickats till din e-post.",
+    "en-GB": "The reset code you provided has expired, a new one has been sent to your email."
+  },
+  "unknownError": {
+    "sv-SE": "Något gick fel.",
+    "en-GB": "Unknown error"
+  },
+  "loginBtn": {
+    "sv-SE": "Logga in",
+    "en-GB": "Log in!!!!"
+  },
+  "verifyYourMailHeader": {
+    "sv-SE": "Logga in för att verifiera din mail-adress",
+    "en-GB": "Log in to verify your Email"
+  },
+  "disclaimerText": {
+    "sv-SE": "Den här tjänsten är under utveckling, funktioner och design kommer att förbättras varje vecka.",
+    "en-GB": "This service is under development, features and design will improve every week."
+  },
+  "disclaimerTextNotLoggedIn": {
+    "sv-SE": " Klicka här för att registrera dig så håller vi dig uppdaterad.",
+    "en-GB": " Click here to register and stay up to date."
+  },
+  "bidRegistered": {
+    "sv-SE": "Registrerat!",
+    "en-GB": "Registered!"
+  },
+  "bidRegisteredText": {
+    "sv-SE": "Ditt bud presenteras nu för ägaren.",
+    "en-GB": "Your bid is now being presented to the owner."
+  },
+  "sharePrompt": {
+    "sv-SE": "Tala om för andra hur enkelt det var!",
+    "en-GB": "Tell others how easy it was!"
+  },
+  "feedbackHeader": {
+    "sv-SE": "Vi vill alltid förbättra oss, tala om för oss hur.",
+    "en-GB": "We always want to improve, please tell us how."
+  },
+  "feedbackInputText": {
+    "sv-SE": "Din åsikt har betydelse för oss.",
+    "en-GB": "Your opinion matters to us."
+  },
+  "feedbackStarsError": {
+    "sv-SE": "Vänligen välj antal stjärnor",
+    "en-GB": "Please select star rating"
+  },
+  "feedbackSendBtn": {
+    "sv-SE": "Skicka",
+    "en-GB": "Submit"
+  },
+  "loginWithMailHeader": {
+    "sv-SE": "Logga in med email",
+    "en-GB": "Log in with Email"
+  },
+  "newPasswordText": {
+    "sv-SE": "Ett mail med ditt nya lösenord har skickats till mailadressen du angav. Om du inte ser mailet, kolla din skräppost.",
+    "en-GB": "A mail has been sent to the email address you submitted. If you can't see the mail, check your spam folder."
+  },
+  "loginError": {
+    "sv-SE": "Felaktig användarinfo",
+    "en-GB": "Wrong user credentials"
+  },
+  "isBanned": {
+    "sv-SE": "Denna användaren är blockerad.",
+    "en-GB": "This user is blocked."
+  },
+  "geocoderPlaceholder": {
+    "sv-SE": "Sök",
+    "en-GB": "Search"
+  },
+  "myBids": {
+    "sv-SE": "Mina Bud",
+    "en-GB": "My Bids"
+  },
+  "acceptedBids": {
+    "sv-SE": "Accepterade Bud",
+    "en-GB": "Accepted Bids"
+  },
+  "deniedBids": {
+    "sv-SE": "Nekade Bud",
+    "en-GB": "Denied Bids"
+  },
+  "yourBid": {
+    "sv-SE": "Ditt högsta bud",
+    "en-GB": "Your highest bid"
+  },
+  "noMoreBids": {
+    "sv-SE": "Inga fler bud att visa",
+    "en-GB": "No more bids to show"
+  },
+  "youHave": {
+    "sv-SE": "Du har",
+    "en-GB": "You have"
+  },
+  "freePoints": {
+    "sv-SE": "gratis poäng.",
+    "en-GB": "free points."
+  },
+  "morePointsHelper": {
+    "sv-SE": "Hur får jag fler?",
+    "en-GB": "How do I get more?"
+  },
+  "myPlots": {
+    "sv-SE": "Mina Tomter",
+    "en-GB": "My Plots"
+  },
+  "bid": {
+    "sv-SE": "Bud",
+    "en-GB": "Bids"
+  },
+  "addNewProperty": {
+    "sv-SE": "Lägg till tomt",
+    "en-GB": "Add plot"
+  },
+  "needHelp": {
+    "sv-SE": "Behöver du hjälp?",
+    "en-GB": "Need help?"
+  },
+  "registerPlot": {
+    "sv-SE": "Registrera tomt",
+    "en-GB": "Register plot"
+  },
+  "chat": {
+    "sv-SE": "Chatt",
+    "en-GB": "Chat"
+  },
+  "messages": {
+    "sv-SE": "Meddelanden",
+    "en-GB": "Messages"
+  },
+  "settings": {
+    "sv-SE": "Inställningar",
+    "en-GB": "Settings"
+  },
+  "logOut": {
+    "sv-SE": "Logga ut",
+    "en-GB": "Log out"
+  },
+  "account": {
+    "sv-SE": "Konto",
+    "en-GB": "Account"
+  },
+  "about": {
+    "sv-SE": "Om Oss",
+    "en-GB": "About us"
+  },
+  "signup": {
+    "sv-SE": "Registrera",
+    "en-GB": "Sign up"
+  },
+  "integrity": {
+    "sv-SE": "Integritet",
+    "en-GB": "Integrity"
+  },
+  "langAndRegion": {
+    "sv-SE": "Språk och region",
+    "en-GB": "Language and region"
+  },
+  "paymentAndPoints": {
+    "sv-SE": "Betalning och poäng",
+    "en-GB": "Payment and points"
+  },
+  "countryOfResidence": {
+    "sv-SE": "Bosättningsland",
+    "en-GB": "Country of residence"
+  },
+  "displayLanguage": {
+    "sv-SE": "Språk",
+    "en-GB": "Display language"
+  },
+  "submitbid": {
+    "sv-SE": "Skicka bud",
+    "en-GB": "Submit bid"
+  },
+  "alreadyRegistered": {
+    "sv-SE": "Redan registrerad?",
+    "en-GB": "Already registered?"
+  },
+  "logInHere": {
+    "sv-SE": "Logga in här.",
+    "en-GB": "Log in here."
+  },
+  "changePassword": {
+    "sv-SE": "Byt lösenord",
+    "en-GB": "Change password"
+  },
+  "twoFactor": {
+    "sv-SE": "Två-faktors autentisering",
+    "en-GB": "Two-factor authentication"
+  },
+  "currentPassword": {
+    "sv-SE": "Nuvarande lösenord",
+    "en-GB": "Current password"
+  },
+  "newPassword": {
+    "sv-SE": "Nytt lösenord",
+    "en-GB": "New password"
+  },
+  "showPassword": {
+    "sv-SE": "Visa lösenord",
+    "en-GB": "Show password"
+  },
+  "passwordDoesNotMatch": {
+    "sv-SE": "Fel lösenord",
+    "en-GB": "Wrong password"
+  },
+  "passwordResetSuccess": {
+    "sv-SE": "Ditt lösenord är nu ändrat.",
+    "en-GB": "Your password was successfully reset!"
+  },
+  "postFeedbackHeader": {
+    "sv-SE": "Tack, vi uppskattar din åsikt!",
+    "en-GB": "Thanks, we highly appreciate your feedback!"
+  },
+  "postFeedbackExtra": {
+    "sv-SE": "Det är alltid användbart för oss att ta del av dina tankar om vår app.",
+    "en-GB": "It's always helpful for us to read your thoughts on our app."
+  },
+  "anyQuestions": {
+    "sv-SE": "Några frågor? ",
+    "en-GB": "Any questions? "
+  },
+  "FAQsupport": {
+    "sv-SE": "Läs vår FAQ eller kontakta kundsupport."
+  },
+  "buyPointsBtn": {
+    "sv-SE": "Köp poäng",
+    "en-GB": "Buy points"
+  },
+  "paymentOptionsBtn": {
+    "sv-SE": "Betalningsalternativ",
+    "en-GB": "Payment options"
+  },
+  "changeCurrencyBtn": {
+    "sv-SE": "Ändra valuta",
+    "en-GB": "Change currency"
+  },
+  "profileSettings": {
+    "sv-SE": "Profilinställningar",
+    "en-GB": "Profile settings"
+  },
+  "contactInformation": {
+    "sv-SE": "Kontaktinformation",
+    "en-GB": "Contact information"
+  },
+  "verification": {
+    "sv-SE": "Verifiering",
+    "en-GB": "Verification"
+  },
+  "change": {
+    "sv-SE": "Ändra",
+    "en-GB": "Change"
+  },
+  "firstName": {
+    "sv-SE": "Förnamn",
+    "en-GB": "First name"
+  },
+  "lastName": {
+    "sv-SE": "Efternamn",
+    "en-GB": "Last name"
+  },
+  "surname": {
+    "sv-SE": "Efternamn",
+    "en-GB": "Surname"
+  },
+  "genericError": {
+    "sv-SE": "Något gick fel",
+    "en-GB": "Something went wrong"
+  },
+  "registerPropertyReview": {
+    "sv-SE": "Din fastighetsregistrering är nu under granskning",
+    "en-GB": "Your property registration is now being reviewed"
+  },
+  "okBtn": {
+    "sv-SE": "OK",
+    "en-GB": "OK"
+  },
+  "findAndRegister": {
+    "sv-SE": "Hitta och registrera din fastighet",
+    "en-GB": "Find and register your property"
+  },
+  "mapView": {
+    "sv-SE": "Kartvy",
+    "en-GB": "Map view"
+  },
+  "noDescription": {
+    "sv-SE": "Ingen beskrivning finns.",
+    "en-GB": "No description added."
+  },
+  "unknownYearBuilt": {
+    "sv-SE": "Okänt byggår",
+    "en-GB": "Unknown year built"
+  },
+  "unknownOwnerType": {
+    "sv-SE": "Ägandeform okänd",
+    "en-GB": "Ownership type unknown"
+  },
+  "unknownHouseType": {
+    "sv-SE": "Hustyp okänd",
+    "en-GB": "House type unknown"
+  },
+  "rooms": {
+    "sv-SE": "rum",
+    "en-GB": "rooms"
+  },
+  "editBtn": {
+    "sv-SE": "Redigera",
+    "en-GB": "Edit"
+  },
+  "cancel": {
+    "sv-SE": "Avbryt",
+    "en-GB": "Cancel"
+  },
+  "saveBtn": {
+    "sv-SE": "Spara",
+    "en-GB": "Save"
+  },
+  "circumference": {
+    "sv-SE": "Omkrets",
+    "en-GB": "Circumference"
+  },
+  "district": {
+    "sv-SE": "Distrikt",
+    "en-GB": "District"
+  },
+  "area": {
+    "sv-SE": "Area",
+    "en-GB": "Area"
+  },
+  "bidHelpHeader": {
+    "sv-SE": "Du är snart redo att placera ett bud på:",
+    "en-GB": "You're almost ready to place a bid on:"
+  },
+  "bidHelpQ1": {
+    "sv-SE": "När du placerar ett bud ",
+    "en-GB": "When you place a bid "
+  },
+  "bidHelpA1": {
+    "sv-SE": "är du inte bunden till att köpa fastigheten du budat på. Om du ändrar dig blir du inte debiterad.",
+    "en-GB": "you're not bound to buy the property that you bid on. If you change your mind you won't be charged anything."
+  },
+  "bidHelpQ2": {
+    "sv-SE": "Du kan ändra dig ",
+    "en-GB": "You can change your"
+  },
+  "bidHelpA2": {
+    "sv-SE": "när som helst i budprocessen, även efter att markägaren har accepterat ditt bud.",
+    "en-GB": " mind at any step in the bid process, even after the land owner has accepted your bid."
+  },
+  "bidHelpQ3": {
+    "sv-SE": "Ditt bud skickas till ägaren ",
+    "en-GB": "Your bid will be sent "
+  },
+  "bidHelpA3": {
+    "sv-SE": "av fastigheten. Du kommer bli notifierad när ditt bud levererats och om de accepterat eller nekat ditt bud.",
+    "en-GB": "to the land owner of the property you've bid on. You'll be notified when your bid is delivered and if they chose to accept or decline your bid."
+  },
+  "bidHelpQ4": {
+    "sv-SE": "En valfri kommentar ",
+    "en-GB": "An optional comment "
+  },
+  "bidHelpA4": {
+    "sv-SE": "kan skickas med ditt bud. Om ägaren accepterar ditt bud kommer ni kunna kontakta varann genom vår chatt-funktion.",
+    "en-GB": "can be added with your bid. If the land owner then accepts your  bid, you'll be able to contact each other through our message function."
+  },
+  "dontShowAgain": {
+    "sv-SE": "Visa inte igen.",
+    "en-GB": "Don't show again."
+  },
+  "continue": {
+    "sv-SE": "Fortsätt",
+    "en-GB": "Continue"
+  },
+  "next": {
+    "sv-SE": "Nästa",
+    "en-GB": "Next"
+  },
+  "reset": {
+    "sv-SE": "Återställ",
+    "en-GB": "Reset"
+  },
+  "enterBid": {
+    "sv-SE": "Sätt bud",
+    "en-GB": "Enter bid"
+  },
+  "close": {
+    "sv-SE": "Stäng",
+    "en-GB": "Close"
+  },
+  "verificationHeader": {
+    "sv-SE": "Vi har skickat en verifikations kod till din E-Mail: ",
+    "en-GB": "We have sent a verification code to your E-Mail: "
+  },
+  "checkSpamFolder": {
+    "sv-SE": "Kolla din spam-mapp om du inte hittar den.",
+    "en-GB": "Check your spam folder if you can't find it."
+  },
+  "yourSafety": {
+    "sv-SE": "För din säkerhet",
+    "en-GB": "For your safety"
+  },
+  "beforeBid": {
+    "sv-SE": "Innan du skickar ditt bud...",
+    "en-GB": "Before sending your bid..."
+  },
+  "registerPlotHeader": {
+    "sv-SE": "Registera plot",
+    "en-GB": "Register plot"
+  },
+  "registerPlotConfirmation": {
+    "sv-SE": "Stämmer det att du äger den här tomten?",
+    "en-GB": "Is this your plot?"
+  },
+  "yes": {
+    "sv-SE": "ja",
+    "en-GB": "yes"
+  },
+  "no": {
+    "sv-SE": "nej",
+    "en-GB": "no"
+  },
+  "proceed": {
+    "sv-SE": "Fullfölj",
+    "en-GB": "Proceed"
+  },
+  "security": {
+    "sv-SE": "Säkerhet",
+    "en-GB": "Security"
+  },
+  "plotSecurity": {
+    "sv-SE": "Ploteye säkerhetsåtgärder",
+    "en-GB": "Ploteye security measures"
+  },
+  "plotSecurity1": {
+    "sv-SE": "Säkerhet på Ploteye",
+    "en-GB": "Security on Ploteye"
+  },
+  "plotSecurity2": {
+    "sv-SE": "Köp mellan privatpersoner",
+    "en-GB": "Purchases between private individuals"
+  },
+  "plotSecurity3": {
+    "sv-SE": "Kundsäkerhet",
+    "en-GB": "Customer security"
+  },
+  "plotSecurity4": {
+    "sv-SE": "Dolda fel",
+    "en-GB": "Hidden errors"
+  },
+  "recentBids": {
+    "sv-SE": "Senaste bud",
+    "en-GB": "Recent bids"
+  },
+  "regUser": {
+    "sv-SE": "Registrerad användare",
+    "en-GB": "Registered user"
+  },
+  "statistics": {
+    "sv-SE": "Statistik",
+    "en-GB": "Statistics"
+  },
+  "statView": {
+    "sv-SE": "Total vyer",
+    "en-GB": "Total views"
+  },
+  "statBid": {
+    "sv-SE": "Total bud",
+    "en-GB": "Total bids"
+  },
+  "statSaves": {
+    "sv-SE": "Total sparade",
+    "en-GB": "Total saves"
+  },
+  "add": {
+    "sv-SE": "Lägg till",
+    "en-GB": "Add"
+  },
+  "info": {
+    "sv-SE": "information",
+    "en-GB": "information"
+  },
+  "contact": {
+    "sv-SE": "Kontakt",
+    "en-GB": "Contact"
+  },
+  "plotPoints": {
+    "sv-SE": "Tomt-Poäng",
+    "en-GB": "Plot-Points"
+  },
+  "insertInfo": {
+    "sv-SE": "Fyll i dina kontaktuppgifter och din fråga",
+    "en-GB": "Put in your contact info and your question"
+  },
+  "firstAndLastname": {
+    "sv-SE": "Förnamn och Efternamn",
+    "en-GB": "Firstname and Lastname"
+  },
+  "phone": {
+    "sv-SE": "Mobilnummer",
+    "en-GB": "Telephone number"
+  },
+  "writeQuestion": {
+    "sv-SE": "Skriv din fråga här!",
+    "en-GB": "Write your question here!"
+  },
+  "moreQuestions": {
+    "sv-SE": "Om du har fler frågor, kontakta oss gärna på länken nedan!",
+    "en-GB": "If you have any more questions, feel free to contact us on the link below!"
+  },
+  "faqBidsQ0": {
+    "sv-SE": "Hur lägger jag ett bud?",
+    "en-GB": "How do I place a bid?"
+  },
+  "faqBidsQ01": {
+    "sv-SE": "1. Har du hittat en tomt som du gillar?",
+    "en-GB": "1.Found a plot do you like?"
+  },
+  "faqBidsA01": {
+    "sv-SE": "Du kan enkelt lägga ett bud genom att \ntrycka på det och ange ditt erbjudande.",
+    "en-GB": "Easily place a bid by tapping it \nand enter your offer."
+  },
+  "faqBidsQ02": {
+    "sv-SE": "2. Inga bekymmer!",
+    "en-GB": "2. No worries!"
+  },
+  "faqBidsA02": {
+    "sv-SE": "Du är alltid fri att ändra dig om att lägga ett bud.",
+    "en-GB": "You're always free to change your mind about placing a bid."
+  },
+  "faqBidsQ03": {
+    "sv-SE": "3. Välj en tomt",
+    "en-GB": "3. Pick a plot"
+  },
+  "faqBidsA03": {
+    "sv-SE": "",
+    "en-GB": ""
+  },
+  "faqBidsQ04": {
+    "sv-SE": "",
+    "en-GB": ""
+  },
+  "faqBidsA04": {
+    "sv-SE": "",
+    "en-GB": ""
+  },
+  "faqBidsA0": {
+    "sv-SE": "Tomten är den mark där huset är byggt eller kan byggas.",
+    "en-GB": "Tomten är den mark där huset är byggt eller kan byggas."
+  },
+  "faqBidsQ1": {
+    "sv-SE": "Vad är skillnaden mellan en tomt och ett hus?",
+    "en-GB": "What is the difference between a plot and a house?"
+  },
+  "faqBidsA1": {
+    "sv-SE": "Tomten är den mark där huset är byggt eller kan byggas.",
+    "en-GB": "The plot is the land on which the house is built or can be built on."
+  },
+  "faqBidsQ2": {
+    "sv-SE": "Hur lägger jag bud på ett hus?",
+    "en-GB": "How do I place a bid on a house?"
+  },
+  "faqBidsA2": {
+    "sv-SE": "För att lägga bud på ett hus, tomt eller fastighet så klickar du innanför den streckade tomtgränsen, skriver in valfri summa i budgivningsfönstret och trycker sedan på 'skicka bud'.",
+    "en-GB": "To bid on a house, plot or property, click inside the dotted plot boundary on a plot that is not restricted (landmark, water or roads) and enter the amount of your choice in the bidding window and then press 'place bid'."
+  },
+  "faqBidsQ3": {
+    "sv-SE": "Vad händer när jag lägger ett bud på en tomt?",
+    "en-GB": "What happens when I bid on a plot?"
+  },
+  "faqBidsA3": {
+    "sv-SE": "När du lägger ett bud så skickar Ploteye vidare detta till tomtägaren.",
+    "en-GB": "When you bid on a plot, Ploteye will get the bid data and then send it to the owner."
+  },
+  "faqBidsQ4": {
+    "sv-SE": "Behöver jag registrera mig för att lägga ett bud?",
+    "en-GB": "Do I need to register to place a bid?"
+  },
+  "faqBidsA4": {
+    "sv-SE": "Du kan buda på en fastighet utan att vara registrerad. Men för att få ditt bud levererat till fastighetsägaren och upprätta ett möligt bostadsköp behöver du vara registrerad.",
+    "en-GB": "You can bid on a property without being registered. However, to have your bid delivered to the property owner and to go through with the house purchase, you need to be registered."
+  },
+  "faqBidsQ5": {
+    "sv-SE": "Kan jag lägga ett bud anonymt?",
+    "en-GB": "Can I bid anonymously?"
+  },
+  "faqBidsA5": {
+    "sv-SE": "Ja! Kryssa bara för “buda anonymt”-rutan när du placerar ett bud, så levererar vi budet till ägaren åt dig utan att uppge din identitet.",
+    "en-GB": "Yes! Just tick the 'bid anonymously' box when you place a bid, and we'll deliver the bid to the owner anonymously."
+  },
+  "faqBidsQ6": {
+    "sv-SE": "Varför kan jag inte se huset på kartan?",
+    "en-GB": "Why can't I see the house on the map?"
+  },
+  "faqBidsA6": {
+    "sv-SE": "Prova att ändra lagret till satellitvy om tomtkartan inte visar husdetaljer. Satellitvyn är vanligtvis mer aktuell. Ibland är informationen för en tomt inte fullständig. Detta beror på att vi får datan av vår partner, och den uppdateras konstant.",
+    "en-GB": "Try changing to satellite view if the plot map does not show up. The satellite view is usually more up-to-date. Sometimes the information for a plot is not complete. This is because we receive the data from our partner, and it is constantly updated."
+  },
+  "faqBidsQ7": {
+    "sv-SE": "Vad händer om jag vinner ett bud?",
+    "en-GB": "What happens when I win a bid?"
+  },
+  "faqBidsA7": {
+    "sv-SE": "När ägaren har accepterat ditt bud så kan ni kontakta varandra genom Ploteye för att tillsammans planera kontraktskrivning, m.m.",
+    "en-GB": "When the owner has accepted your offer you will get in contact with each other through Ploteye and can set up a contract for the plot."
+  },
+  "faqBidsQ8": {
+    "sv-SE": "Hur kan jag radera mitt bud?",
+    "en-GB": "How do I remove/delete my bid?"
+  },
+  "faqBidsA8": {
+    "sv-SE": "Du kan radera ditt bud genom att navigera till 'Mina bud och sparade tomter' i menyn, därefter klicka på den tomt det gäller och välja 'radera bud'.",
+    "en-GB": "You can revoke your bids by clicking on menu > “My bids and saved plots” and the plot your bid is on, then revoke the bid."
+  },
+  "faqBidsQ9": {
+    "sv-SE": "Kan jag ändra mitt bud?",
+    "en-GB": "Can I change/update my bid?"
+  },
+  "faqBidsA9": {
+    "sv-SE": "Det går inte att ändra ett bud, men du kan alltid lägga ett nytt bud och ta bort det tidigare.",
+    "en-GB": "You cannot change a bid, however you can offer another bid and revoke the previous."
+  },
+  "faqBidsQ10": {
+    "sv-SE": "Var kan jag följa statusen för de bud jag lagt?",
+    "en-GB": "Where can I track my bids?"
+  },
+  "faqBidsA10": {
+    "sv-SE": "Du kan följa dina bud genom att navigera till 'Mina bud' i menyn.",
+    "en-GB": "You can check your bids under menu > “My bids”"
+  },
+  "faqBidsQ11": {
+    "sv-SE": "Kan jag ångra mig efter att ägaren accepterat mitt bud?",
+    "en-GB": "Can I regret/cancel if I won a bid?"
+  },
+  "faqBidsA11": {
+    "sv-SE": "Inget är permanent tills dess att kontraktet är undertecknat. För mer insikt i det juridiska som gäller vid husköp, se denna länk.",
+    "en-GB": "Nothing is permanent until you and the owner signs a contract, if you are unsure about legal matters check this page LINK."
+  },
+  "faqPlotQ1": {
+    "sv-SE": "Kan jag lägga upp min egen bostad?",
+    "en-GB": "Can I add my own plot?"
+  },
+  "faqPlotA1": {
+    "sv-SE": "Det kan du! För att registrera ditt hus så klickar du och håller under 1 sek innanför den streckade linje som markerar din tomt. För att göra ditt hus mer intressant för spekulanter kan du även välja att lägga till foton eller en beskrivning.",
+    "en-GB": "You can! To register your house, click and hold for 1 second inside the dotted line that marks your plot. To make your house more interesting for prospective buyers, you can also add photos or a description. You will then get contacted directly through Ploteye app if you get any offers."
+  },
+  "faqPlotQ2": {
+    "sv-SE": "Måste jag sälja om jag får ett bud?",
+    "en-GB": "Do I need to sell if I get an offer?"
+  },
+  "faqPlotA2": {
+    "sv-SE": "Nej. Genom att ha ditt hus eller din tomt på Ploteye indikerar du att du är öppen för att ta emot bud, det är inte ett löfte om att sälja. Vi finns för att förenkla och utveckla bostadsköp och vår tjänst är en plats för lägga och ta emot bud. När du känner att du vill sälja hjälper vi dig med hur du kan gå tillväga och erbjuder även hjälp med bland annat flyttstäd, möblering och juridisk rådgivning genom våra samarbetspartners. Oavsett om du väljer att acceptera ett bud, vill fundera ett tag eller enbart är ute efter en värdering så finns vi alltid tillgängliga för frågor och rådgivning.",
+    "en-GB": "If you get an offer, you do not need to follow through. There is nothing legally binding until you have signed a contract. We exist to make the house buying process easier and our service is based on placing and recieving bids. When you decide that you want to sell, we'll guide you through it and also offer some services through our partners. Whether you decide to accept an offer, want to think about it for a while or are just looking for a valuation, we are always available for questions and advice."
+  },
+  "faqPlotQ3": {
+    "sv-SE": "Om jag registrerar mig som ägare av min fastighet, kan jag se tidigare bud?",
+    "en-GB": "If I register as the owner of my property, can I see previous bids?"
+  },
+  "faqPlotA3": {
+    "sv-SE": "Absolut. Vi sparar alla bud så att du kan få en klar bild av värdet på din fastighet när du väl bestämmer dig för att sälja.",
+    "en-GB": "Absolutely. We keep a record of all offers so you can get a indication of your property's value once you decide to sell."
+  },
+  "faqAccQ1": {
+    "sv-SE": "Vad händer med min data på Ploteye?",
+    "en-GB": "What happens with my personal data on Ploteye?"
+  },
+  "faqAccA1": {
+    "sv-SE": "Din personliga data är alltid trygg hos Ploteye. Vi följer GDPR och eftersträvar att våra användare ska känna sig så trygga som möjligt.",
+    "en-GB": "Your personal data is safe with Ploteye, we follow GDPR and work our best for your safety online."
+  },
+  "faqAccQ2": {
+    "sv-SE": "Var registrerar jag mig?",
+    "en-GB": "Where do I register?"
+  },
+  "faqAccA2": {
+    "sv-SE": "För att registrera dig besök app.ploteye.com och följ instruktionerna.",
+    "en-GB": "To register, visit app.ploteye.com and follow the instructions."
+  },
+  "faqAccQ3": {
+    "sv-SE": "Kan jag radera mitt konto?",
+    "en-GB": "Can I delete my account?"
+  },
+  "faqAccA3": {
+    "sv-SE": "Ja, du kan radera ditt konto. Gå till menyn > Min Profil > Kontoinställningar > Radera konto. Efter att du svarar på en kort enkät raderas ditt konto.",
+    "en-GB": "Yes, you are able to delete your account. Go to the menu > profile > account setting > delete account. After you’ve answered a short questionnaire your account will be deleted.."
+  },
+  "faqAccQ4": {
+    "sv-SE": "Vad kan jag göra om någon har snott mina inloggningsuppgifter?",
+    "en-GB": "What do I do if someone has taken my login credentials?"
+  },
+  "faqAccA4": {
+    "sv-SE": "Kontakta support direkt här.",
+    "en-GB": "Contact support directly here."
+  },
+  "faqAccQ5": {
+    "sv-SE": "Varför måste jag verifiera mitt konto när jag lägger ett bud?",
+    "en-GB": "Why do I need to verify my email/account when I bid?"
+  },
+  "faqAccA5": {
+    "sv-SE": "Verfikationen är ett sätt att säkerställa att du är du.",
+    "en-GB": "Verification is a way to make sure you are you."
+  },
+  "faqAccQ6": {
+    "sv-SE": "Hur kan jag få en överblick över ett område på kartan?",
+    "en-GB": "How can I monitor an area?"
+  },
+  "faqAccA6": {
+    "sv-SE": "Du kan använda Ploteye för att söka efter adresser och sedan scrolla på kartan. Om du vill centralisera kartan utifrån din egen position tryck på knappen 'Centralisera'. Tänk på att du måste dela din position med appen för att det ska fungera.",
+    "en-GB": "You can use Ploteye to search for addresses and then scroll through the map. If you want to center the map on your location (make sure location is turned on for the app) and then click on the center on my location button."
+  },
+  "faqPointsQ1": {
+    "sv-SE": "Hur kan jag tjäna bonus poäng?",
+    "en-GB": "How can I earn bonus points?"
+  },
+  "faqPointsA1": {
+    "sv-SE": "Du kan tjäna fler poäng genom att bjuda in vänner till Ploteye genom en inbjudningslänk. Denna länk kan du hitta under Menu > Min Profil > Bjud in en vän där du kan välja att skicka länken direkt eller kopiera den.",
+    "en-GB": "You can earn more points by inviting friends to Ploteye through an referral link. This link can be found under Menu > My Profile > Invite a friend where you can choose to send the link directly or copy it."
+  },
+  "faqPointsQ2": {
+    "sv-SE": "Vad kan jag göra med mina poäng?",
+    "en-GB": "What can I do with my points?"
+  },
+  "faqPointsA2": {
+    "sv-SE": "Dina poäng kan spenderas på att lägga fler bud.",
+    "en-GB": "Your points can be spent on bids."
+  },
+  "faqOtherQ1": {
+    "sv-SE": "Hur kan jag kontakta er?",
+    "en-GB": "How can I contact you?"
+  },
+  "faqOtherA1": {
+    "sv-SE": "Du kan kontakta oss här.",
+    "en-GB": "You can contact us here."
+  },
+  "faqOtherQ2": {
+    "sv-SE": "Hur kan jag skicka feedback till er?",
+    "en-GB": "How can I send you feedback?"
+  },
+  "faqOtherA2": {
+    "sv-SE": "Om du har feedback eller förbättringsförslag så tar vi gärna emot din åsikt här.",
+    "en-GB": "If you have any feedback or suggestions for improvement, we are gladly taking your opinion here."
+  },
+  "faqOtherQ3": {
+    "sv-SE": "Varför kan jag inte klicka på den här tomten?",
+    "en-GB": "Why can't I click on this plot?"
+  },
+  "faqOtherA3": {
+    "sv-SE": "En del tomter ägs av företag, stat, region eller kommun. Dessa kan inte säljas privat och därför kan du inte lägga på dem. Även saker som landmärken, osv är inte möjligt att lägga bud på.",
+    "en-GB": "Some plots are owned by corporations and states. These are not for private sales, so you are not allowed to put a bid on them. Some things like landmarks etc are also not bid-able."
+  },
+  "faqOtherQ4": {
+    "sv-SE": "Hur kan jag bjuda in mina vänner?",
+    "en-GB": "How can I invite my friends?"
+  },
+  "faqOtherA4": {
+    "sv-SE": "Inbjudningslänken kan du hitta under Menu > Min Profil > Bjud in en vän där du kan välja att skicka länken direkt eller kopiera den.",
+    "en-GB": "The invitation link can be found under Menu > My Profile > Invite a friend where you can choose to send the link directly or copy it."
+  },
+  "faqOtherQ5": {
+    "sv-SE": "Kostar det någonting?",
+    "en-GB": "Does it cost anything?"
+  },
+  "faqOtherA5": {
+    "sv-SE": "Ploteye är helt gratis att använda, men om du vill ha tillgång till särskilda funktioner så finns ett betalmedlemskap.",
+    "en-GB": "Ploteye is completely free to use, but if you want access to special features there is a paid membership."
+  },
+  "faqOtherQ6": {
+    "sv-SE": "Är det säkert att använda denna app?",
+    "en-GB": "Is it safe to use this app?"
+  },
+  "faqOtherA6": {
+    "sv-SE": "Din data är krypterad och vi arbetar aktivt för att garantera din säkerhet online.",
+    "en-GB": "Your data is well encrypted using something and we work our hardest to ensure your safety online."
+  },
+  "faqOtherQ7": {
+    "sv-SE": "Vad baseras Ploteyes validering på?",
+    "en-GB": "How is Ploteyes valuation calculated?"
+  },
+  "faqOtherA7": {
+    "sv-SE": "Det finns flera faktorer som påverkar kalkyleringen. Geografisk position, storlek, granntomer, byggnadsår och slutpriser i området.",
+    "en-GB": "There are multiple factors that affect the calculation. Geographical position, size, neighbouring municipalities, year of construction and end prices in the area."
+  },
+  "faqOtherQ8": {
+    "sv-SE": "Vad ersätter mäklaren?",
+    "en-GB": "What is replacing the broker?"
+  },
+  "faqOtherA8": {
+    "sv-SE": "Ploteye har en egen validering, men detta är bara en riktlinje. Ingen mäklare är nödvändig då idén är att du budar det som tomten är värd enligt dig.",
+    "en-GB": "Ploteye has its own valuation, but this is only a guideline. There is no need for a broker since Ploteye’s idea is that you bid what you think the plot is worth to you."
+  },
+  "goToEmail": {
+    "sv-SE": "Klicka här för att gå vidare",
+    "en-GB": "Click to continue"
+  },
+  "emailForUser": {
+    "sv-SE": "",
+    "en-GB": ""
+  },
+  "adressForUser": {
+    "sv-SE": "",
+    "en-GB": ""
+  },
+  "phonenumberForUser": {
+    "sv-SE": "",
+    "en-GB": ""
+  },
+  "notifications": {
+    "sv-SE": "Notifikationer",
+    "en-GB": "Notifications"
+  },
+  "theme": {
+    "sv-SE": "Tema",
+    "en-GB": "Theme"
+  },
+  "helpAndSupport": {
+    "sv-SE": "Hjälp & Support",
+    "en-GB": "Help & Support"
+  },
+  "privacyPolicy": {
+    "sv-SE": "Sekretess",
+    "en-GB": "Privacy Policy"
+  },
+  "languages": {
+    "sv-SE": "Språk",
+    "en-GB": "Language"
+  },
+  "enterFullName": {
+    "sv-SE": "Fyll i ditt fullständiga namn",
+    "en-GB": "Enter full name"
+  },
+  "cancelBtn": {
+    "sv-SE": "Avbryt",
+    "en-GB": "Cancel"
+  },
+  "cancelChangesBtn": {
+    "sv-SE": "Avbryt Ändringar",
+    "en-GB": "Cancel Changes"
+  },
+  "saveChangesBtn": {
+    "sv-SE": "Spara Ändringar",
+    "en-GB": "Save Changes"
+  },
+  "name": {
+    "sv-SE": "Namn",
+    "en-GB": "Name"
+  },
+  "accountSettings": {
+    "sv-SE": "Konto Inställningar",
+    "en-GB": "Account Settings"
+  },
+  "fullName": {
+    "sv-SE": "Fullständigt Namn",
+    "en-GB": "Full Name"
+  },
+  "birthday": {
+    "sv-SE": "Födelsedag",
+    "en-GB": "Birthday"
+  },
+  "phoneNumber": {
+    "sv-SE": "Telefon Nummer",
+    "en-GB": "Phone Number"
+  },
+  "address": {
+    "sv-SE": "adress",
+    "en-GB": "Address"
+  },
+  "back": {
+    "sv-SE": "Tillbaka",
+    "en-GB": "Back"
+  },
+  "repeatNewPassword": {
+    "sv-SE": "Repetera nytt lösenord",
+    "en-GB": "Repeat new password"
+  },
+  "changeEmail": {
+    "sv-SE": "Ändra E-mail",
+    "en-GB": "Change E-mail"
+  },
+  "enterEmail": {
+    "sv-SE": "Sätt in ny E-mail",
+    "en-GB": "Enter new E-mail"
+  },
+  "enterBirth": {
+    "sv-SE": "Ange ditt födelsedatum",
+    "en-GB": "Enter your date of birth"
+  },
+  "day": {
+    "sv-SE": "Dag",
+    "en-GB": "Day"
+  },
+  "month": {
+    "sv-SE": "Månad",
+    "en-GB": "Month"
+  },
+  "year": {
+    "sv-SE": "År",
+    "en-GB": "Year"
+  },
+  "contain": {
+    "sv-SE": "Din lösenord måste innehålla...",
+    "en-GB": "Your password must contain..."
+  },
+  "PhoneNumber": {
+    "sv-SE": " Telefon nummer ",
+    "en-GB": "Phone number"
+  },
+  "policy": {
+    "sv-SE": "Integritetspolicy",
+    "en-GB": "Privacy policy"
+  },
+  "terms": {
+    "sv-SE": "Vilkor",
+    "en-GB": "Terms of Use"
+  },
+  "myProfile": {
+    "sv-SE": "Min Profil",
+    "en-GB": "My Profile"
+  },
+  "currency": {
+    "sv-SE": "Valuta",
+    "en-GB": "Currency"
+  },
+  "location": {
+    "sv-SE": "Platstjänst",
+    "en-GB": "Location"
+  },
+  "savedPlots": {
+    "sv-SE": "Sparade Tomter",
+    "en-GB": "Saved Plots"
+  },
+  "gender": {
+    "sv-SE": "Kön",
+    "en-GB": "Gender"
+  },
+  "changeGender": {
+    "sv-SE": "Ändra kön",
+    "en-GB": "Change Gender"
+  },
+  "male": {
+    "sv-SE": "Man",
+    "en-GB": "Male"
+  },
+  "female": {
+    "sv-SE": "Kvinna",
+    "en-GB": "Female"
+  },
+  "other": {
+    "sv-SE": "Annat",
+    "en-GB": "Other"
+  },
+  "insertBirthDate": {
+    "sv-SE": "Fyll i födelsedatum",
+    "en-GB": "Insert date of birth"
+  },
+  "faq": {
+    "sv-SE": "Hur kan vi hjälpa dig?",
+    "en-GB": "How can we help you?"
+  },
+  "sendFeedback": {
+    "sv-SE": "Skicka synpunkter",
+    "en-GB": "Send Feedback"
+  },
+  "tutorial": {
+    "sv-SE": "Handledning",
+    "en-GB": "Tutorial"
+  },
+  "selectGender": {
+    "sv-SE": "Välj kön",
+    "en-GB": "Select Gender"
+  },
+  "enterPhone": {
+    "sv-SE": "Sätt in ditt telefon nummer",
+    "en-GB": "Enter your Phone number"
+  },
+  "monthJanuary": {
+    "sv-SE": "Januari",
+    "en-GB": "January"
+  },
+  "monthFebruary": {
+    "sv-SE": "Februari",
+    "en-GB": "February"
+  },
+  "monthMarch": {
+    "sv-SE": "Mars",
+    "en-GB": "March"
+  },
+  "monthApril": {
+    "sv-SE": "April",
+    "en-GB": "April"
+  },
+  "monthMay": {
+    "sv-SE": "Maj",
+    "en-GB": "May"
+  },
+  "monthJune": {
+    "sv-SE": "Juni",
+    "en-GB": "June"
+  },
+  "monthJuly": {
+    "sv-SE": "Juli",
+    "en-GB": "July"
+  },
+  "monthAugust": {
+    "sv-SE": "Augusti",
+    "en-GB": "August"
+  },
+  "monthSeptember": {
+    "sv-SE": "September",
+    "en-GB": "September"
+  },
+  "monthOctober": {
+    "sv-SE": "Oktober",
+    "en-GB": "October"
+  },
+  "monthNovember": {
+    "sv-SE": "November",
+    "en-GB": "November"
+  },
+  "monthDecember": {
+    "sv-SE": "December",
+    "en-GB": "December"
+  },
+  "ploteyesValuation": {
+    "sv-SE": "Ploteye's Värdering",
+    "en-GB": "Ploteye's Valuation"
+  },
+  "readMore": {
+    "sv-SE": "Läs Mer",
+    "en-GB": "Read More"
+  },
+  "feedback": {
+    "sv-SE": "Feedback",
+    "en-GB": "Feedback"
+  },
+  "aboutThePlot": {
+    "sv-SE": "How Ploteye evaluate properties"
+  },
+  "premiumContent": {
+    "sv-SE": "Premium Innehåll",
+    "en-GB": "Premium Content"
+  },
+  "upgradeAccountToUnlock": {
+    "sv-SE": "Uppgradera konto för att låsa upp.",
+    "en-GB": "Upgrade account to unlock."
+  },
+  "available": {
+    "sv-SE": "Tillgänglig",
+    "en-GB": "Available"
+  },
+  "plotHouse": {
+    "sv-SE": "Tomt / Hus",
+    "en-GB": "Plot / House"
+  },
+  "notAddedByMember": {
+    "sv-SE": "Inte tillagd av medlem",
+    "en-GB": "Not added by member"
+  },
+  "isThisYourHouse": {
+    "sv-SE": "Är detta ditt hus?",
+    "en-GB": "Is this your house?"
+  },
+  "registerThisHouse": {
+    "sv-SE": "Registrera detta som din tomt",
+    "en-GB": "Register this as your plot"
+  },
+  "here": {
+    "sv-SE": "Här",
+    "en-GB": "Here"
+  },
+  "iAgree": {
+    "sv-SE": "Genom att klicka på registrera går jag med på Ploteye's",
+    "en-GB": "By clicking register I agree to the Ploteye"
+  },
+  "and": {
+    "sv-SE": "och",
+    "en-GB": "and"
+  },
+  "bidsOnMyPlot": {
+    "sv-SE": "Bud på min tomt",
+    "en-GB": "Bids on my plot"
+  },
+  "whenOutBid": {
+    "sv-SE": "När jag blivit över budad",
+    "en-GB": "When I've been outbid"
+  },
+  "updatesOnFollowed": {
+    "sv-SE": "Nyheter på tomter jag följer",
+    "en-GB": "Updates to plots I follow"
+  },
+  "today": {
+    "sv-SE": "Idag",
+    "en-GB": "Today"
+  },
+  "thisWeek": {
+    "sv-SE": "Denna veckan",
+    "en-GB": "This Week"
+  },
+  "thisPlotMine": {
+    "sv-SE": "Ja, detta är min plot",
+    "en-GB": "Yes, this is my plot"
+  },
+  "correctInfo": {
+    "sv-SE": "Är denna information korrekt?",
+    "en-GB": "Is this information correct?"
+  },
+  "editLater": {
+    "sv-SE": "(Detta kan redigeras senare)",
+    "en-GB": "(This can be edited later)"
+  },
+  "describePlot": {
+    "sv-SE": "Beskriv ditt hus eller din tomt här.",
+    "en-GB": "Describe your house or plot here."
+  },
+  "addPlot": {
+    "sv-SE": "Lägg till tomt",
+    "en-GB": "Add Plot"
+  },
+  "addInfo": {
+    "sv-SE": "Lägg till info",
+    "en-GB": "Add Info"
+  },
+  "youRegOwner": {
+    "sv-SE": "Du vill registrera dig som ägare av",
+    "en-GB": "You want to register as an owner of"
+  },
+  "toVerify": {
+    "sv-SE": "För att verifiera dig som ägare till denna tomt/hus måste du skaffa ett folkbokföringsdokument från Skatteverket och ladda upp det i följande steg.",
+    "en-GB": "To verify as an owner of this plot/house you'll need to acquire apopulation registration document from Skatteverket and upload it in the following step."
+  },
+  "toSkatte": {
+    "sv-SE": "Gå in på www.skatteverket.com och identifiera dig för att logga in. Ladda ner dokumentet med information om din folkbokföring.",
+    "en-GB": "Go to www.skatteverket.com and identify yourself to login. Download the document containing information about your population registration."
+  },
+  "uploadDoc": {
+    "sv-SE": "Ladda upp dokumentet här.",
+    "en-GB": "Upload the document here."
+  },
+  "pressDone": {
+    "sv-SE": "Tryck på KLAR och det är allt! Din tomt/hus har nu registrerats till Ploteye.",
+    "en-GB": "Press DONE and that's it! Your plot/house have now been registered to Ploteye."
+  },
+  "byClickAdd": {
+    "sv-SE": "Genom att klicka på lägg till tomt bekräftar du ärligt att du är den sanna ägaren till denna tomt",
+    "en-GB": "By clicking on add plot you honestly confirm that you are the true owner of this plot"
+  },
+  "done": {
+    "sv-SE": "Klar",
+    "en-GB": "Done"
+  },
+  "yourPlotAdd": {
+    "sv-SE": "Din tomt har lagts till",
+    "en-GB": "Your plot has been added"
+  },
+  "youCanEdit": {
+    "sv-SE": "Du kan redigera och se statistik för din tomt i 'Min tomt'",
+    "en-GB": "You can edit and see statistics for your plot in 'My plot'"
+  },
+  "goToPlot": {
+    "sv-SE": "Gå till Min tomt",
+    "en-GB": "Go to My Plot"
+  },
+  "backMap": {
+    "sv-SE": "Tillbaka till kartan",
+    "en-GB": "Back to map"
+  },
+  "thanksForBid": {
+    "sv-SE": "Tack för ditt bud!",
+    "en-GB": "Thanks for your bid!"
+  },
+  "inOrderToContinueWithBid": {
+    "sv-SE": "För att fortsätta med budet behöver vi lite mer information om dig att bättre förstå dig som köpare!",
+    "en-GB": "In order to continue with the bid we need some more information aboutyou to better understand you as a buyer!"
+  },
+  "yourBidIsAnonymous": {
+    "sv-SE": "Ditt bud är anonymt och din personliga information kommer inte att visas för ägaren.",
+    "en-GB": "Your bid is anonymous and your personal information will not be shown to the owner."
+  },
+  "sentPassword": {
+    "sv-SE": "Vi har skickat ett lösenord till din e-post, kontrollera din e-post för att fortsätta",
+    "en-GB": "We have sent a password to your E-mail, Check your E-mail to continue"
+  },
+  "notReceivedPasswordYet": {
+    "sv-SE": "Har du inte fått lösenordet ännu?",
+    "en-GB": "Haven't received password yet?"
+  },
+  "resendPassword": {
+    "sv-SE": "Skicka lösenordet igen",
+    "en-GB": "Resend password"
+  },
+  "enterPasswordFromMail": {
+    "sv-SE": "Vänligen ange lösenordet vi skickade till din e-post",
+    "en-GB": "Please enter the Password we sent to your email"
+  },
+  "aboutFirst": {
+    "sv-SE": "Vårt mål är att förenkla bostadsköpsmarknaden och göra den globalt tillgänglig. Vi siktar på att bli den plattform som människor i första hand väljer när de vill köpa och sälja hus.",
+    "en-GB": "Our goal is to simplify the home buying market and make it globally accessible. We aim to become the platform that people mainly choose when they want to buy and sell houses."
+  },
+  "aboutSecond": {
+    "sv-SE": "Ploteye är ett startup-projekt med talanger inom flera IT-områden. Vi strävar efter att vara ett inkluderande team där alla ges utrymme att växa, utvecklas och övervinna ett gemensamt hinder",
+    "en-GB": "Ploteye is a startup project with talents in several IT areas. We strive to be an inclusive team where everyone is given room to grow, develop and overcome together obstacle"
+  },
+  "ourVision": {
+    "sv-SE": "Vår vision",
+    "en-GB": "Our vision"
+  },
+  "ourVisiontext": {
+    "sv-SE": "Vi vill skapa möjligheter för fler, samt en bättre och effektivare handel med bostäder. Vi har inga mäklare som sätter ett utgångspris – vad du vill ge är helt upp till dig. Genom Ploteye får du tillgång att lägga bud på alla registrerade tomter, även de som inte finns på marknaden.",
+    "en-GB": "We want to create opportunities for more people, as well as a better and more efficient trade in housing. We don`t have brokers who set a starting price - what you want to give is entirely up to you. Through Ploteye, you get access to bid on all registered plots, even those that are not on the market."
+  },
+  "bidStatusHeader ": {
+    "sv-SE": "Bud accepterat",
+    "en-GB": "Bid Accepted"
+  },
+  "FAQSupport": {
+    "sv-SE": "Läs våra Frågor & Svar eller kontakta kundtjänst",
+    "en-GB": "Read our FAQ or contact customer support."
+  },
+  "notYourMail": {
+    "sv-SE": "Inte din e-post? Byt här",
+    "en-GB": "Not your e-mail? Change here"
+  },
+  "contactUs": {
+    "sv-SE": "Kontakta oss",
+    "en-GB": "Contact Us"
+  },
+  "plotOverview": {
+    "sv-SE": "Plot Översikt",
+    "en-GB": "Plot Overview"
+  },
+  "BidSummary": {
+    "sv-SE": "Sammanfattning Bud",
+    "en-GB": "Bid Summary"
+  },
+  "bidAmountIs": {
+    "sv-SE": "Budgivningens summa är",
+    "en-GB": "The bidding amount is"
+  },
+  "youAreCloseToBid": {
+    "sv-SE": "Du är nära på att placera ett bud på:",
+    "en-GB": "You are close to placing a bid on:"
+  },
+  "aSafePurchase": {
+    "sv-SE": "Ett säkert köp",
+    "en-GB": "A safe Purchase"
+  },
+  "evaluateProperties": {
+    "sv-SE": "Hur Ploteye värderar bostäder",
+    "en-GB": "How Ploteye evaluate properties"
+  },
+  "evaluateProperties1": {
+    "sv-SE": "Fastigheter kan värderas på olika sätt beroende på typ av fastighet och syftet med värderingen. Några vanliga metoder för att utvärdera egenskaper inkluderar: ",
+    "en-GB": "Properties can be evaluated in different ways, depending on the type of property and the purpose of the evaluation. Some common methods of evaluating properties include: "
+  },
+  "evaluateProperties2": {
+    "sv-SE": "Marknadsanalys: Jämför fastigheten med liknande fastigheter som nyligen sålts i samma område för att fastställa dess marknadsvärde",
+    "en-GB": "Market analysis: Comparing the property to similar properties that have recently sold in the same area to determine its market value."
+  },
+  "evaluateProperties3": {
+    "sv-SE": "Kostnadsmetod: En uppskattning av kostanden för att ersätta fastigheten, inklusive kostnad för material och arbete. Dra sedan av dess avskrivningar",
+    "en-GB": "Cost approach: Estimating the cost of replacing the property, including the cost of materials and labor, and then subtracting depreciation."
+  },
+  "evaluateProperties4": {
+    "sv-SE": "Inkomstmetod: Analysera inkomsten som genereras av fastigheten, såsom hyra från hyresgäster, för att fastställa dess potensiella värde.",
+    "en-GB": "Income approach: Analyzing the income generated by the property, such as rent from tenants, to determine its potential value."
+  },
+  "evaluateProperties5": {
+    "sv-SE": "Värdering: Anlita en professionell besiktningsman för att utföra en grundlig utvärdering av fastigheten, med hänsyn till faktorer som läge, storlek, skick och bekvämligheter.",
+    "en-GB": "Appraisal: Hiring a professional appraiser to perform a thorough evaluation of the property, taking into account factors such as location, size, condition, and amenities."
+  },
+  "evaluateProperties6": {
+    "sv-SE": "Inspektion: Att anlita en professionell inspektör för att värdera fastigheten och identifiera dess eventuella fysiska eller funktionella problem kan påverka dess värde. Den mest lämpliga metoden för att värdera en fastighet beror på vad för typ av fastighet och syftet med utvärderingen",
+    "en-GB": "Inspection: Hiring a professional inspector to examine the property and identify any physical or functional issues that may impact its value. The most appropriate method of evaluating a property depends on the type of property and the purpose of the evaluation."
+  },
+  "SafePurchase0": {
+    "sv-SE": "Du är <b> aldrig </b> skyldig att köpa fastigheten du budger på.",
+    "en-GB": "You're <b> never </b> bound to buy the property you bid on."
+  },
+  "SafePurchase1": {
+    "sv-SE": "Budet lämnas <b>endast</b> som förslag.",
+    "en-GB": "The bid is made as proposal <b>only</b>."
+  },
+  "SafePurchase2": {
+    "sv-SE": "Hur ni går till väga är upp till dig och <b> markägaren / fastighetsägaren </b>",
+    "en-GB": "How you proceed is up to you and the <b>land owner</b>"
+  },
+  "SafePurchase3": {
+    "sv-SE": "Du kan alltid ändra dig <b> under vilket steg </b> i processen.",
+    "en-GB": "Change your mind <b>at any step </b> in the bid process."
+  },
+  "SafePurchase4": {
+    "sv-SE": "Markägaren kan <b> acceptera </b> eller <b> neka </b> ditt budförslag.",
+    "en-GB": "The land owner can <b>accept</b> or <b>deny</b>deny your bid proposal."
+  },
+  "SafePurchase5": {
+    "sv-SE": "Lägg till en <b>valfri</b> kommentar för att stå utanför mängden.",
+    "en-GB": "Add an <b>optional</b> comment to make your bid stand out."
+  },
+  "SafePurchase6": {
+    "sv-SE": "Din data är <b> alltid </b> säkrad",
+    "en-GB": "Your data is <b>always</b> secured"
+  },
+  "BidHasBeenPlaced": {
+    "sv-SE": "Din budgivning har godkänts",
+    "en-GB": "Your bid has been placed"
+  },
+  "ThankYouForBid": {
+    "sv-SE": "Tack för ditt bud! Vi kommer att kontakta ägaren",
+    "en-GB": "Thank you for your bid we will contact the owner!"
+  },
+  "ForFurtherDetails": {
+    "sv-SE": "För mer detaljer om processen, gå till ",
+    "en-GB": "For further details about the process go to "
+  },
+  "CancelYourBid": {
+    "sv-SE": "Om du vill avbryta din budgivning behöver du gå till ",
+    "en-GB": "If you want to cancel your bid you need to go to "
+  },
+  "FooterLearnMore": {
+    "sv-SE": "Lär dig mer",
+    "en-GB": "Learn More"
+  },
+  "FooterAbout": {
+    "sv-SE": "Om Ploteye",
+    "en-GB": "About Ploteye"
+  },
+  "FooterTermsOfUse": {
+    "sv-SE": "Vilkor",
+    "en-GB": "Terms Of Use"
+  },
+  "FooterPolicy": {
+    "sv-SE": "Igrentitetspolicy",
+    "en-GB": "Privacy Policy"
+  },
+  "FooterContact": {
+    "sv-SE": "Kontakta oss",
+    "en-GB": "Contact Us"
+  },
+  "FooterPlots": {
+    "sv-SE": "Sök efter Plots",
+    "en-GB": "Search for Plots"
+  },
+  "FooterHouses": {
+    "sv-SE": "Sök efter fastigheter",
+    "en-GB": "Search for Houses"
+  },
+  "FooterLookAround": {
+    "sv-SE": "Se dig omkring",
+    "en-GB": "Look around"
+  },
+  "FooterSocials": {
+    "sv-SE": "Sociala medier",
+    "en-GB": "Socials"
+  },
+  "FooterPlots&Houses": {
+    "sv-SE": "Plots & Fastigheter",
+    "en-GB": "Plots & Houses"
+  },
+  "AllRightsReserved": {
+    "sv-SE": "Alla rättigheter förbehållna",
+    "en-GB": "All Rights Reserved"
+  },
+  "AdminAccessDenied": {
+    "sv-SE": "Du är inte administratör",
+    "en-GB": "You are not an admin",
+    "de-DE": "Sie sind kein Administrator",
+    "es-ES": "No eres un administrador"
+  },
+  "Dashboard": {
+    "sv-SE": "Instrumentpanel",
+    "en-GB": "Dashboard",
+    "de-DE": "Dashboard",
+    "es-ES": "Tablero"
+  },
+  "ShowUsers": {
+    "sv-SE": "Visa användare",
+    "en-GB": "Show users",
+    "de-DE": "Benutzer anzeigen",
+    "es-ES": "Mostrar usuarios"
+  },
+  "AdminShowBids": {
+    "sv-SE": "Visa alla bud",
+    "en-GB": "Show all bids",
+    "de-DE": "Alle Gebote anzeigen",
+    "es-ES": "Mostrar todas las ofertas"
+  },
+  "AcceptedBids": {
+    "sv-SE": "Accepterade anbud",
+    "en-GB": "Accepted bids",
+    "de-DE": "Akzeptierte Gebote",
+    "es-ES": "Ofertas aceptadas"
+  },
+  "PendingBids": {
+    "sv-SE": "Pågående bud",
+    "en-GB": "Pending bids",
+    "de-DE": "Ausstehende Gebote",
+    "es-ES": "Ofertas pendientes"
+  },
+  "DeniedBids": {
+    "sv-SE": "Nekade bud",
+    "en-GB": "Denied bids",
+    "de-DE": "Abgelehnte Gebote",
+    "es-ES": "Ofertas denegadas"
+  },
+  "BannedUsers": {
+    "sv-SE": "Förbjudna användare",
+    "en-GB": "Banned users",
+    "de-DE": "Gesperrte Benutzer",
+    "es-ES": "Usuarios bloqueados"
+  },
+  "Email": {
+    "sv-SE": "Email",
+    "en-GB": "Email",
+    "de-DE": "Email",
+    "es-ES": "Email"
+  },
+  "AccountCreationDate": {
+    "sv-SE": "Kontodag",
+    "en-GB": "Account date",
+    "de-DE": "Kontoerstellungsdatum",
+    "es-ES": "Fecha de creación de la cuenta"
+  },
+  "BidAmmount": {
+    "sv-SE": "Budbelopp",
+    "en-GB": "Bid amount",
+    "de-DE": "Gebotsbetrag",
+    "es-ES": "Monto de la oferta"
+  },
+  "Date": {
+    "sv-SE": "Datum",
+    "en-GB": "Date",
+    "de-DE": "Datum",
+    "es-ES": "Fecha"
+  },
+  "Status": {
+    "sv-SE": "Status",
+    "en-GB": "Status",
+    "de-DE": "Status",
+    "es-ES": "Estado"
+  },
+  "TotalBids": {
+    "sv-SE": "Totalt antal bud",
+    "en-GB": "Total bids"
+  },
+  "OngoingBids": {
+    "sv-SE": "Pågående anbud",
+    "en-GB": "Ongoing bids"
+  },
+  "BidsWon": {
+    "sv-SE": "Vunna anbud",
+    "en-GB": "Bids won"
+  },
+  "AdminDashboard": {
+    "sv-SE": "Administratörens kontrollpanel",
+    "en-GB": "Admin dashboard"
+  }
+}

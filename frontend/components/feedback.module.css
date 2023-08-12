@@ -1,0 +1,52 @@
+.star {
+  background-color: inherit;
+  border: none;
+  font-size: 2em;
+}
+
+.feedbackTitle {
+  font-size: 1.6em;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.feedbackInput {
+  min-height: 6em;
+  height: 8em;
+  width: 80%;
+  border: none;
+  box-shadow: 0 0 1px black;
+  border-radius: 4px;
+  resize: none;
+  font-size: 1.1em;
+}
+
+.errorMsg {
+  margin: 0;
+  color: red;
+}
+
+.submitBtn {
+  background: #4cad61;
+  box-shadow: 1px 1px 2px 2px rgba(203, 203, 203, 0.25);
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-family: "Open sans";
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 1em;
+  padding: 0.5rem 0;
+  height: 43px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  margin: 0.5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,170 @@
+.body {
+  z-index: 8;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2vh;
+  gap: 2vh;
+  align-items: center;
+  padding-top: 5vh;
+  overflow-y: scroll;
+  padding-bottom: 20vh;
+}
+
+.topThree h3 {
+  margin: 0%;
+}
+
+.mainBox {
+  width: 100vh;
+  margin-top: 2%;
+  position: relative;
+  box-shadow: 0.5px 0.5px 1px 1px rgb(0 0 0 / 25%);
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #e5e5e5;
+}
+
+.imgContainer img {
+  border-radius: 100%;
+  max-height: 25vw;
+  max-width: 25vw;
+  height: 100px;
+  width: 100px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.bidProcess {
+  box-shadow: 0.5px 0.5px 1px 1px rgb(0 0 0 / 25%);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1px;
+}
+.adressBox {
+  text-align: center;
+  font-size: small;
+}
+
+.componentFrame button:hover {
+  cursor: pointer;
+}
+
+.bidSummaryForm {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+/* .groupButtons {
+    margin-bottom: 10px;
+  } */
+
+.buttonSection button:nth-child(2) {
+  background: #4cad61;
+  box-shadow: 1px 1px 2px 2px rgba(203, 203, 203, 0.25);
+  border-radius: 5px;
+  border: none;
+  font-family: "Open sans";
+  color: #000000;
+  font-size: 16px;
+  height: 43px;
+  width: 120px;
+  max-width: 38vw;
+  cursor: pointer;
+  font-weight: 600;
+  right: 0px !important;
+}
+
+.buttonSection button {
+  justify-content: space-between;
+  display: block;
+}
+
+.youAreCloseToBid {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bidAmountIs {
+  box-shadow: 1px 1px 2px 2px rgba(203, 203, 203, 0.25);
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bidAmountIs h1 {
+  background-color: #f3f3f3;
+}
+
+.checkBox {
+  text-align: right;
+  margin-top: 50px;
+  padding-right: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+
+.about h2 {
+  font-size: x-large;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: #000000 solid 1px;
+  padding-bottom: 3%;
+}
+
+.about li {
+  font-size: medium;
+  padding-top: 5%;
+  text-align: left;
+}
+
+@media screen and (max-width: 845px) {
+  .bidProcess {
+    width: 100%;
+  }
+
+  .mainBox {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .mainBox {
+    width: 100%;
+    margin-top: 20%;
+  }
+}

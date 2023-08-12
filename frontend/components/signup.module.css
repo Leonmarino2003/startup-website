@@ -1,0 +1,70 @@
+.headerFrame {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupHeader {
+  margin: 0;
+  font-size: 2.5em;
+  background: var(--gradientToBottom);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerExtra {
+  color: var(--darkgrey);
+  font-size: 1.2em;
+  margin: 0.5em 0.9em 2em;
+}
+
+.alternativesFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1em 0 1em;
+}
+.alternativesFrame :first-child {
+  margin-bottom: 1em;
+}
+.alternativesFrame :last-child {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.signupBtn {
+  padding: 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+.facebookBtn {
+  background-color: rgb(61, 81, 255);
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.textBtn {
+  background-color: inherit;
+  border: none;
+  font-size: 1em;
+}
+
+.footerLogin {
+  position: relative;
+  bottom: 3%;
+  right: 3%;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+.footerBtn {
+  background-color: inherit;
+  border: none;
+  padding: 0;
+}

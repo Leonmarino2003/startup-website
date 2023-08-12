@@ -1,0 +1,30 @@
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 18px;
+    gap: 10px;
+    background: #393939;
+    border-radius: 5px;
+    width: 217px;
+    height: 45px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.buttonText{
+    width: 95px;
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+}

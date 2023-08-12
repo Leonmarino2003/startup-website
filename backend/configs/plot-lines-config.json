@@ -1,0 +1,6 @@
+{
+  "maxDistance": {
+    "dividend": 1,
+    "divisor": 6371
+  }
+}

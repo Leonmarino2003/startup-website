@@ -1,0 +1,58 @@
+.frame {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.flexColumn form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.helper {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: var(--lightgrey);
+  padding: 0.5em;
+  margin: 5px 0;
+}
+
+.helper p {
+  margin: 0;
+}
+
+.iconFrame {
+  margin: auto 0.5em auto 0;
+}
+
+@media screen and (max-width: 359px) {
+  .flexColumn form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .checkboxFrame {
+    margin-top: 16px;
+  }
+  .submitBtn {
+    margin-top: 16px;
+  }
+}

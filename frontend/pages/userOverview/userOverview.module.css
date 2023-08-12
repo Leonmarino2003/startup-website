@@ -1,0 +1,87 @@
+.userOverview {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 50px;
+  background-color: #eff3f2;
+  position: relative;
+}
+
+.menuIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 20px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.dropdown > div {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.dropdown > div:hover {
+  background-color: #dcdcdc;
+}
+
+.labelValue > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 100px;
+}
+
+.labelValue > div > strong {
+  margin-bottom: 10px;
+}
+
+.bids {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #eff3f2;
+}
+
+.bids > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first {
+  padding: 30px;
+}
+
+.first > div {
+  margin-bottom: 50px;
+}
+
+.first > div > div {
+  margin-top: 20px;
+}
+
+.acceptButton {
+  background-color: #4cad61;
+  border-radius: 5px;
+  padding: 5px 50px;
+  font-weight: bold;
+  border: none;
+  margin: 20px;
+}
+
+.denyButton {
+  color: #ffffff;
+  background-color: #393939;
+  border-radius: 5px;
+  padding: 5px 50px;
+  font-weight: bold;
+  margin: 20px;
+}

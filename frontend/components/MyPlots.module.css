@@ -1,0 +1,271 @@
+.container {
+  z-index: 6;
+  background-color: white;
+  top: 70;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.header {
+  z-index: 7;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: #4cad61;
+  height: 200px;
+  width: 150%;
+  position: fixed;
+  top: -10%;
+  border-radius: 40% 40%;
+  transition: background 0.6s;
+}
+.greenBorder p {
+  color: black;
+  z-index: 9;
+  justify-content: center;
+  display: flex;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.greenBorder {
+  height: 80px;
+  width: 100%;
+  background: #4cad61;
+  z-index: 8;
+}
+
+.header :first-child {
+  margin: 10px 0 10px 20px;
+}
+
+.header :last-child {
+  margin: auto auto auto 20%;
+}
+
+.body {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none;
+  padding-bottom: 20vh;
+  z-index: 7;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.greenBackground {
+  background: #4cad61;
+  height: 235px;
+  width: 150%;
+  position: fixed;
+  top: -10%;
+  border-radius: 40% 40%;
+  transition: background 0.6s;
+  z-index: 8;
+}
+
+@media screen and (max-width: 339px) {
+  .header :last-child {
+    margin: auto auto auto 10%;
+  }
+}
+.icon {
+  position: absolute;
+  font-size: 4rem;
+  left: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.myPlotsList {
+  z-index: 7;
+  list-style: none;
+  margin-top: 15%;
+  margin-left: -12px;
+}
+
+.myPlotsList li {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--lightgrey);
+  background: #ffffff;
+  border: 4px solid #f8f8f8;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* .list p {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 8px 55px;
+}
+ */
+
+.plotItem {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .plotItem div:nth-child(1) {
+  z-index: 10;
+  position: relative;
+  width: 64px;
+  height: 54px;
+  margin-left: -3px;
+} */
+
+.dropButton {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: -12px;
+  bottom: -13px;
+  background: #f5f5f5;
+  /* Light/Gray-0 */
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.plotProperties {
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 13px;
+}
+
+.img {
+  width: 64px;
+  height: 54px;
+  position: relative;
+}
+
+@media screen and (max-width: 349px) {
+  .plotProperties {
+    margin-left: 0.5em;
+  }
+}
+
+.plotProperties p {
+  margin: 0;
+}
+.address {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  padding-bottom: 3px;
+  border-bottom: 1px;
+}
+
+.bids {
+  background-color: var(--lightgrey);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
+.propertiesContainer {
+  display: flex;
+  flex-direction: row;
+}
+.bids p {
+  font-weight: bold;
+  margin: 0 5px;
+}
+.bids :nth-child(2) {
+  color: var(--darkgrey);
+  font-weight: normal;
+}
+.bids button {
+  background-color: var(--lightgreen);
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0.2em;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  cursor: pointer;
+}
+.newPlotFrame {
+  background: #f8f8f8;
+  border: 4px solid #f8f8f8;
+  border-radius: 8px;
+  width: 340px;
+  height: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.newPlotFrame p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: x-large;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.newPlotFrame p span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.newPlotDescription {
+  font-weight: bold;
+}
+.newPlotCircle {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--lightgreen);
+  border-radius: 100%;
+  margin: auto 0.5em;
+  text-align: center;
+  line-height: 34px;
+}
+
+.newPlotCircle:active {
+  background-color: var(--lightgreen);
+}
+
+.newPlotCircle p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.newPlotCircle p:active {
+  color: #fff;
+}
+.newPlotHelper {
+  font-size: 0.9em;
+  margin: 0 auto 1em auto;
+}
+
+/* .loadingContainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+} */

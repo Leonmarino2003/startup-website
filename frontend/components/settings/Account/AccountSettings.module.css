@@ -1,0 +1,253 @@
+.component-frame {
+  background-color: #fff;
+}
+.page {
+  margin-bottom: 50px;
+}
+
+.page li {
+  margin: 0;
+}
+
+.home {
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Open sans";
+  background-color: inherit;
+  border: none;
+  margin-left: 0;
+}
+
+.componentHeader {
+  margin: 0;
+  font-size: large;
+}
+
+.home1 {
+  margin-right: 0;
+  width: 80%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout {
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  font-size: x-small;
+  font-style: inherit;
+  line-height: 2rem;
+  width: 300px;
+  height: 400px;
+  border: solid #eff3f2;
+  border-radius: 20px;
+  background-color: #eff3f2;
+  box-shadow: 4px 6px 4px 0px #00000040;
+}
+
+.backBtn {
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+}
+.backBtn h1 {
+  margin-bottom: 0px !important;
+  font-size: 20px;
+}
+
+.backBtn > * {
+  margin-right: 10px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 0px;
+  border: solid black 3px;
+  margin: 40px auto 40px auto;
+}
+
+.boxStyle {
+  box-sizing: content-box;
+  width: 300px;
+  border: solid #eff3f2;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.textStyle1 {
+  text-align: center;
+  margin-right: 0%;
+  margin-top: -10%;
+  line-height: 2rem;
+}
+
+.textStyle {
+  font-size: small;
+}
+
+.onclickStyle {
+  border: none;
+  border-radius: 3px;
+  background-color: #40949d;
+  height: 27px;
+  width: 130px;
+  font: 700;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.profile1 {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 180px;
+  height: 370px;
+}
+
+.settingChoices h6 {
+  margin-bottom: 10px;
+}
+
+.settingChoices input {
+  width: 180px;
+  height: 25px;
+}
+
+.profile2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 180px;
+  height: 370px;
+}
+
+.phoneNumberInput::-webkit-outer-spin-button,
+.phoneNumberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.phoneNumberInput[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.settingChoices button {
+  border: none;
+  background-color: var(--lightblue);
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Open sans";
+  background-color: white;
+  justify-content: space-between;
+  line-height: 2rem;
+}
+
+.textSize {
+  margin-top: 0;
+  font-weight: 1000;
+  font-size: medium;
+  text-align: left;
+}
+
+.header3 {
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  margin-top: auto;
+}
+
+.header3 img {
+  width: 200px;
+  height: 200px;
+}
+
+.formButtons {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+}
+
+.saveBtn {
+  background: white;
+  border-radius: 5px;
+  border: 4px solid green;
+  font-weight: 500;
+  font-family: "Open sans";
+  color: green;
+  font-size: 14px;
+  line-height: 21px;
+  width: 240px;
+  cursor: pointer;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.cancelBtn {
+  background: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-family: "Open sans";
+  color: black;
+  font-size: 14px;
+  line-height: 21px;
+  width: 240px;
+  cursor: pointer;
+  border: 4px solid black;
+  margin-left: 3%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1135px) {
+  .settingChoices {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home1 {
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layout {
+    padding: 0;
+  }
+
+  .header3 {
+    position: relative;
+    margin: auto;
+  }
+  .profile {
+    margin-bottom: 30px;
+  }
+
+  .profile1 {
+    margin-right: 0;
+    margin-bottom: 90px;
+  }
+}

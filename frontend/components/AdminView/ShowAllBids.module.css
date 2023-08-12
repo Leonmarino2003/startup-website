@@ -1,0 +1,114 @@
+.tableContent {
+  display: flex;
+  flex-flow:wrap;
+  justify-content: space-between;
+  
+}
+
+.popup {
+  max-width: 60%;
+  background-color: #eff3f2;
+}
+
+.closeButton {
+  border: none;
+  background: none;
+  text-align: right;
+}
+
+.popupBlocks {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px;
+}
+
+.popupContentLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1.97243px 2.95865px 1.97243px rgba(0, 0, 0, 0.25);
+}
+
+.popupContentLeft > div {
+  padding: 10px;
+}
+
+.popupContentLeft div:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.popupContentRight {
+  display: block;
+}
+
+.popupContentRight > div {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.popupContentRight > button {
+  background-color: #40949d;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.WonStatusBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  height: 60px;
+  border-radius: 10%;
+  background-color: darkgreen;
+  text-align: center;
+  margin-right: 30px;
+  padding-inline: 10px;
+}
+.AcceptedStatusBox{
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  height: 60px;
+  border-radius: 10%;
+  background-color: #4CAD61;
+  text-align: center;
+  margin-right: 30px;
+  padding-inline: 10px;
+}
+.PendingStatusBox {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  height: 60px;
+  border-radius: 10%;
+  background-color: #40949D;
+  text-align: center;
+  margin-right: 30px;
+  padding-inline: 10px;
+
+}
+
+.DeniedStatusBox {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  height: 60px;
+  border-radius: 10%;
+  background-color: #393939;
+  color: white; 
+  margin-right: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding-inline: 10px;
+}

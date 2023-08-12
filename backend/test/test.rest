@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/allTest HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/signup HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "lia.startup@gmail.com"
+}
+
+###
+POST http://localhost:3000/api/postFeedback HTTP/1.1
+Content-Type: application/json
+
+{
+    "stars": 5,
+    "comment": "bestest"
+}
+
+###
+
+POST http://localhost:3000/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "bcrypt@bcryptFinal.com",
+    "password": "Q8mFTrZR2h"
+}

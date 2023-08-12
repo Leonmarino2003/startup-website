@@ -1,0 +1,23 @@
+.componentContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 90vw;
+  height: fit-content;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 400px;
+  z-index: 4;
+}
+
+.disclaimerText {
+  font-size: 0.8em;
+  padding: 0 0.4em 0 0.4em;
+}

@@ -1,0 +1,181 @@
+.container {
+  z-index: 6;
+  background-color: white;
+  top: 70;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.header {
+  z-index: 7;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: #4cad61;
+  height: 200px;
+  width: 150%;
+  position: fixed;
+  top: -10%;
+  border-radius: 40% 40%;
+  transition: background 0.6s;
+}
+
+.nameAdress {
+  z-index: 8;
+  font-size: x-large;
+  margin-top: -10px;
+}
+
+.header h1 {
+  word-break: break-all;
+}
+
+.icon {
+  position: absolute;
+  font-size: 4rem;
+  left: 0;
+  color: black;
+  cursor: pointer;
+  z-index: 8;
+  margin-top: -23px;
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  margin-top: 30px;
+}
+
+.propertiesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.75em 0;
+  width: 100%;
+  justify-content: center;
+}
+.propertiesContainer p {
+  margin: 0;
+  color: var(--darkgrey);
+  padding-left: 5px;
+  font-weight: normal;
+}
+.bids :first-child {
+  color: #000;
+  font-weight: bold;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.flexRowCentered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.flexRowStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  background-color: var(--lightgrey);
+  border-radius: 5px;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0.75em 0;
+}
+.detailsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+@media screen and (max-width: 374px) {
+  .detailsRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 100%;
+  }
+}
+.detailsRow p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.descriptionContainer {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.bids {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.bids p {
+  font-weight: bold;
+  margin: 0 5px;
+}
+.bids :nth-child(2) {
+  color: black;
+  font-weight: normal;
+  margin: 0 5px 0 0;
+  padding: 0 5px 0 0;
+}
+
+.editBtn {
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  background-color: var(--darkgreen);
+  border: none;
+  border-radius: 5px;
+  appearance: none;
+  box-shadow: 0 0 2px 0 var(--lightgrey);
+  padding: 5px 1em;
+  cursor: pointer;
+  margin: 0 0.5em;
+}
+
+.editsContainer {
+  width: 100%;
+}
+
+.detailsRow textarea {
+  width: 100%;
+  height: 100%;
+  appearance: none;
+  resize: none;
+  border: none;
+  background-color: var(--lightgrey);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+.detailsRow input {
+  width: 2em;
+  height: 20px;
+  font-size: 1em;
+  border: none;
+}

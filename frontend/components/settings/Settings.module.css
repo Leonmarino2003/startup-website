@@ -1,0 +1,134 @@
+.container {
+  background-color: #393939;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 6rem;
+  top: 5.2rem;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 12.125rem;
+  z-index: 11;
+  display: flex;
+  width: 12.125rem;
+  height: 10.188rem;
+  overflow: auto;
+  padding: 0;
+}
+
+.item {
+  background-color: #393939;
+  width: 100%;
+  border-bottom: 1.5px solid white !important;
+  display: flex;
+  border: none;
+  align-items: center;
+  color: white;
+  padding: 11px 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.item:hover::after {
+  opacity: 1;
+}
+
+.noBorder {
+  border-bottom: none !important;
+}
+
+.item p {
+  color: #1573fe;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  font-size: 10px;
+}
+
+.icons {
+  margin-right: 20px;
+}
+
+.icons path {
+  stroke: #fff;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.hamMenuContainer {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .container {
+    background-color: #ffff;
+    right: 0;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+  }
+
+  .hamItem {
+    background-color: #ffff;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(150, 150, 150) !important;
+    display: flex;
+    border: none;
+    align-items: center;
+    color: black;
+    padding: 29px 28px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .hamItem::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    inset: 6px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    z-index: -1;
+  }
+
+  .hamItem:hover::after {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .hamItem p {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 28px;
+  }
+
+  .item {
+    display: none;
+  }
+
+  .hamMenuContainer {
+    display: flex;
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+}

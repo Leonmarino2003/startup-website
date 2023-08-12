@@ -1,0 +1,13 @@
+{
+  "emailVerificationCodeValidityTime": 15,
+  "emailVerificationCodeLength": 10,
+
+  "resetPasswordCodeValidityTime": 15,
+  "resetPasswordCodeLength": 10,
+
+  "user": {
+    "warnsUntilBan": 3
+  },
+
+  "hashingSaltRounds": 10
+}

@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  /* Color variables */
+  --lightgreen: #d6ecd8;
+  --darkgreen: #4cad61;
+  --lightgrey: #fafafa;
+  --darkgrey: #a1a3a2;
+  --gradientToRight: linear-gradient(to right, #55b169, #d6ecd8);
+  --gradientToBottom: linear-gradient(to bottom, #55b169, #d6ecd8);
+  /* Transition variables */
+  --easeShort: 0.3s ease;
+}
+
+/* BELOW: Built in tags */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* BELOW: Base classes */
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.suggestions-wrapper ul {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #fff;
+  margin-top: 1rem;
+
+  /* Nya sök */
+  margin-right: 20px;
+  list-style: none;
+  margin-left: 2px;
+  margin-top: 30px;
+  width: 99%;
+  background-color: rgba(57, 57, 57, 1);
+  color: white;
+
+  margin-bottom: 120px;
+}
+
+.suggestions li {
+  list-style-type: none;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 5px;
+  /* Nya sök */
+  margin-right: 20px;
+  border-bottom: 3px solid #a1a3a2;
+}
+
+.suggestions li:hover {
+  background-color: rgba(0, 0, 0, 0.187);
+}
+
+.suggestions li:active {
+  background-color: rgba(0, 0, 0, 0.187);
+}
+
+.light-green {
+  background-color: var(--lightgreen);
+  color: black;
+}
+
+.dark-green {
+  background-color: var(--darkgreen);
+  color: white;
+}
+
+.clear-color {
+  background-color: transparent;
+  color: black;
+}
+
+/* BELOW: Mapbox classes */
+.mapboxgl-ctrl-geocoder--button {
+  background-color: #ccc;
+  border-radius: 100%;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  position: absolute;
+  top: 1rem;
+  top: 1rem;
+  right: 1.6vw;
+}
+
+.mapboxgl-ctrl-geocoder--button:hover {
+  background-color: rgba(0, 0, 0, 0.127);
+}
+
+.mapboxgl-ctrl-geocoder--button:active {
+  background-color: rgba(0, 0, 0, 0.127);
+}
+
+.mapboxgl-ctrl-geocoder--icon-search {
+  background-color: transparent;
+  border-radius: 100%;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  position: absolute;
+  top: 1rem;
+  left: 1.3vw;
+}
+
+.mapboxgl-ctrl-geocoder--powered-by {
+  margin-top: 1rem;
+}
+
+.mapboxgl-ctrl-top-right {
+  top: 290px !important;
+}
+
+.mapboxgl-ctrl-geocoder--icon-loading {
+  display: none;
+}
+
+.mapboxgl-ctrl-geocoder--button {
+  display: none;
+}
+
+svg.mapboxgl-ctrl-geocoder--icon.mapboxgl-ctrl-geocoder--icon-close {
+  fill: white;
+}
+
+/* BELOW: Classes for component modals */
+.component-frame {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+  /* max-height: 70vh; */
+  max-width: 400px;
+  z-index: 10;
+  padding: 1rem;
+}
+
+.submitBtn {
+  box-shadow: 1px 1px 2px 2px rgba(203, 203, 203, 0.25);
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-family: "Open sans";
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  height: 43px;
+  width: 120px;
+  position: relative;
+}
+
+.componentHeader {
+  font-size: 1.7em;
+  font-weight: 500;
+  max-width: 280px;
+  line-height: 1.1em;
+  text-align: center;
+  margin: auto 2.1em;
+}
+
+/* BELOW: In field and in frame labels for input fields */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.formContainer .inputField {
+  background-color: #fff;
+  appearance: none;
+  padding: 12px;
+  border-radius: 5px;
+  border: 2px solid var(--darkgrey);
+  width: 100%;
+  font-size: 16px;
+  resize: none;
+}
+
+.customField {
+  position: relative;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+.customField .placeholder {
+  position: absolute;
+  color: var(--darkgrey);
+  left: 12px;
+  /* This should match the input field's padding */
+  top: calc(50% + 10px);
+  transform: translateY(-50%);
+  font-size: 16px;
+  transition: top var(--easeShort), font-size var(--easeShort),
+    color var(--easeShort), border-color var(--easeShort);
+  padding: 0 5px;
+  pointer-events: none;
+}
+
+.customField input.lostFocus + .placeholder,
+.customField input:focus + .placeholder,
+.customField textarea.lostFocus + .placeholder,
+.customField textarea:focus + .placeholder {
+  background: #fff;
+  top: 20px;
+  font-size: 12px;
+  border-color: #000;
+  transition-delay: 0.1s;
+}
+
+.customField input:-webkit-autofill + .placeholder {
+  background: #fff;
+  top: 20px;
+  font-size: 12px;
+  border-color: #000;
+}

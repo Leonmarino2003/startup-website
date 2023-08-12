@@ -1,0 +1,134 @@
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mapbox-attribution-container {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: block;
+  margin: 0 10px 5px;
+}
+
+.marker {
+  background-image: url("../public/favicon.ico");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  pointer-events: visible;
+}
+
+.geocoder {
+  position: absolute;
+  z-index: 6;
+  width: 90%;
+  top: 90px;
+  left: 70px;
+  box-shadow: 4px 4px -4px -4px rgba(0.25, 0.25, 0.25, 0.25);
+  overflow-y: scroll;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scroll-behavior: hidden;
+  height: fit-content;
+}
+
+.geocoder.active {
+  transition: height 0.6s ease-in-out;
+  height: 50%;
+}
+
+@keyframes slideFromBottom {
+  0% {
+    transform: translatey(600px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes slideBack {
+  0% {
+    transform: translatey(0px);
+  }
+
+  100% {
+    transform: translatey(600px);
+  }
+}
+
+.geocoder::-webkit-scrollbar {
+  display: none;
+}
+
+.geocoder input {
+  height: 3.5rem;
+  border-radius: 30px;
+  border: none;
+  width: 99%;
+  font-size: 16px;
+  padding-left: 55px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  color: rgba(57, 57, 57, 1);
+  background-color: white;
+  box-shadow: 4px 4px -4px -4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+
+.mapbox-ctrl-geocoer--icon-searcg {
+  display: none;
+}
+
+.mapboxgl-ctrl-geocoder--icon-loading {
+  display: none;
+}
+
+/* Currently solution of the position pointer button */
+.mapboxgl-ctrl-top-right {
+  right: 32px !important;
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-group {
+  height: 42px !important;
+  width: 42px !important;
+}
+
+.mapboxgl-ctrl-geolocate {
+  margin-left: 6px !important;
+  margin-top: 6px !important;
+}
+
+.mapboxgl-ctrl-group button {
+  background-color: transparent;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 42px !important;
+  outline: none;
+  overflow: hidden;
+  padding: 0;
+  width: 42px !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.287);
+  backdrop-filter: blur(1px);
+  z-index: 5;
+}

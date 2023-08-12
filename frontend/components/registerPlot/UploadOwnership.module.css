@@ -1,0 +1,204 @@
+.componentFrame {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+
+  overflow-y: scroll;
+  max-width: 400px;
+  z-index: 6;
+  padding: 2rem;
+  height: 70%;
+}
+
+.register {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.addressFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.addressFrame h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.addressFrame {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.componentFrame img {
+  border-radius: 100%;
+  height: 65px;
+  width: 65px;
+}
+
+.cityAndCountry p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.infoBox {
+  background: #f8f8f8;
+  font-family: "Open Sans";
+}
+
+.stage {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.stage .elipse {
+  height: 15px;
+  min-width: 15px;
+  margin-right: 1rem;
+}
+
+.stage p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* .uploadStage {
+} */
+
+.dotAndText {
+  display: flex;
+}
+
+.doneIcon {
+  position: absolute;
+  right: 40px;
+  color: #a1a3a2;
+  font-size: 1.3rem;
+}
+
+.uploadStage input[type="file"] {
+  display: none;
+}
+
+.uploadStage label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: var(--darkgreen);
+  border: none;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.uploadStage img {
+  height: 20px;
+  color: #fff;
+}
+
+.addPlot {
+  margin-top: 20px;
+  border: 4px solid #f8f8f8;
+  border-radius: 8px;
+}
+
+.breadText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.componentFrame button:hover {
+  cursor: pointer;
+}
+
+.doneBtn {
+  background: var(--darkgreen);
+  color: black;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-family: "Open sans";
+  font-size: 16px;
+  line-height: 27px;
+  padding: 0.5rem 0;
+  height: 43px;
+  width: 120px;
+}
+
+.cancel {
+  background-color: #393939;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-family: "Open sans";
+  font-size: 16px;
+  line-height: 27px;
+  padding: 0.5rem 0;
+  height: 43px;
+  width: 120px;
+  margin-left: 20px;
+}
+
+.notDoneBtn {
+  background: var(--darkgreen);
+  color: black;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-family: "Open sans";
+  font-size: 16px;
+  line-height: 27px;
+  padding: 0.5rem 0;
+  height: 43px;
+  width: 120px;
+}
+
+@media screen and (max-height: 650px) {
+  .header .closeBtn {
+    display: block;
+  }
+}

@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  bottom: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  font-family: "Open Sans";
+  overflow: auto;
+  border: 2px solid #73ad21;
+}
+
+.box {
+  width: 100%;
+  min-width: 100%;
+  border-radius: 25px;
+  padding: 20px;
+  height: 80vh;
+}
+
+.adminTitle {
+  color: green;
+  margin: 0%;
+}
+
+.closeButton {
+  margin-right: 100%;
+  color: rgb(209, 67, 67);
+  font-weight: bold;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  padding-left: 4rem;
+}
+
+.adminMenuChoice {
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.3em;
+  border-bottom: #73ad21 2px solid;
+  margin-top: 5%;
+}
+
+.adminMenuChoice:hover {
+  background-color: rgba(234, 243, 232, 0.884);
+  border-radius: 5%;
+}
+
+.operatorTitle {
+  color: green;
+  text-align: center;
+}
+
+.buttonSpace {
+  margin-right: 8px;
+  border: black solid 1px;
+}
+
+.formSectionTitle {
+  color: green;
+  text-align: center;
+}
+
+.formSection {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 20px;
+
+  background-color: #e8e2d8;
+}
+
+.inputStyle {
+  border: 1px solid black;
+  color: green;
+}
+
+.lastAndFirstInput {
+  border: 1px solid black;
+  color: green;
+}
+
+.lableText {
+  color: #73ad21;
+  font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.popupbox {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  padding-right: 80px;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 50%;
+  color: white;
+  background: rgb(28, 36, 53);
+  border-radius: 8px;
+  padding: 25px;
+  border: 1px solid white;
+  overflow: auto;
+}
+
+.closeicon {
+  content: "";
+  cursor: pointer;
+  position: absolute;
+  top: 1%;
+  right: 1px;
+  width: 25px;
+  height: 26px;
+  background: rgb(28, 36, 53);
+  color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-size: 23px;
+}
+
+.closeicon:hover {
+  background-color: rgba(47, 57, 80);
+}

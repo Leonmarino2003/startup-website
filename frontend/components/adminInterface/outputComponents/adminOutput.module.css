@@ -1,0 +1,45 @@
+.main {
+  background-color: #e9ffca;
+  margin-top: 30px;
+  word-wrap: break-word;
+  padding: 4%;
+  border: solid 4px #b4db7d;
+  border-radius: 1%;
+}
+
+.main li {
+  padding-top: 5px;
+}
+
+.main ul {
+  background: #c7dbaa;
+
+  border: 2px dotted rgb(107, 177, 119);
+}
+
+.deny {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.deny:hover {
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.confirm {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.confirm:hover {
+  background-color: limegreen;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}

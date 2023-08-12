@@ -1,0 +1,65 @@
+.navWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.menuBar {
+  display: flex;
+  border-radius: 100%;
+  margin-right: 5%;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+}
+
+.navContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 0.5%;
+}
+
+.navContainer a {
+  font-weight: 700;
+}
+
+.arrow {
+  font-size: x-large;
+  margin-top: 6px;
+}
+
+.navContainer p {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 0;
+}
+
+.contentContainer {
+  display: flex;
+  column-gap: 7%;
+  padding: 1% 10%;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+}
+
+.aboutImage {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 800px) {
+  .contentContainer {
+    flex-direction: column;
+  }
+  .aboutContainer {
+    max-width: 100%;
+  }
+  .aboutContainer:last-of-type {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,67 @@
+.componentFrame {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  overflow-y: hidden;
+  max-width: 400px;
+  z-index: 6;
+  height: 70%;
+  overflow-x: hidden;
+}
+
+.itemContainer {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.itemContainer button {
+  border: none;
+  margin: 0.5rem 0;
+  min-height: 50px;
+  background-color: var(--lightgrey);
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Open sans";
+  cursor: pointer;
+  background-color: white;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+
+.navigator {
+  margin-right: 15px;
+  margin-top: 10px;
+  color: #393939;
+  background-color: white;
+}
+
+.textContent {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.arrow {
+  display: flex;
+  top: -1px;
+  margin-top: -20px;
+  position: relative;
+  left: 95%;
+  right: -24.06%;
+  bottom: 20px;
+}

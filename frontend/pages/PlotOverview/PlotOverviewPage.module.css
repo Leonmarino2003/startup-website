@@ -1,0 +1,786 @@
+.plotOverviewHeader {
+  width: 100%;
+}
+
+.greenBackground {
+  background: #4cad61;
+  height: 200px;
+  margin-top: -8%;
+  border-radius: 40% 40%;
+  transition: background 0.6s;
+  z-index: 8;
+}
+.container {
+  z-index: 8;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+  padding-top: 5vh;
+  overflow-y: scroll;
+  padding-bottom: 20vh;
+}
+
+.topNav {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  width: 110%;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  z-index: 9;
+  background-color: white;
+  max-height: 40px;
+  top: env(safe-area-inset-top);
+  margin-left: 50px !important;
+}
+
+.mainBox {
+  width: 60%;
+  position: relative;
+  box-shadow: 0.5px 0.5px 1px 1px rgb(0 0 0 / 25%);
+  margin: 0 auto;
+  margin-top: 3% !important;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #e5e5e5;
+}
+
+.imgContainer img {
+  border-radius: 100%;
+  max-height: 25vw;
+  max-width: 25vw;
+  height: 100px;
+  width: 100px;
+}
+
+.frame {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 6;
+}
+
+.topThree {
+  padding-top: 15%;
+}
+.topThree h3 {
+  margin: 0%;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.adressBox {
+  max-width: 290px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.addressFrame {
+  flex-direction: column;
+  min-height: 55px;
+  height: 100%;
+  align-items: left;
+  margin-top: 5px;
+}
+
+.bidParagraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  margin: 0%;
+}
+
+.icon {
+  border: 2px solid black;
+  max-height: 33px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.plusCircle {
+  cursor: pointer;
+}
+
+.closeBtn {
+  cursor: pointer;
+}
+
+.fastInfo {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 55px;
+  margin-left: 5px;
+  border: #000000;
+}
+
+.fastInfo li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  background: #fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2.2px solid;
+  border-color: #393939;
+  flex-grow: 2;
+  margin-right: 10px;
+}
+
+.bidParagraph:nth-child(1) {
+  color: rgb(0, 0, 0);
+}
+
+.bidAddress {
+  margin: 0%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.placeholder {
+  left: 80% !important;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.componentFrame button:hover {
+  cursor: pointer;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.buttonSection button {
+  height: 35px;
+  width: 100px;
+}
+
+.buttonSection button:nth-child(2) {
+  background: #4cad61;
+  box-shadow: 1px 1px 2px 2px rgba(203, 203, 203, 0.25);
+  border-radius: 5px;
+  border: none;
+  font-family: "Open sans";
+  color: #000000;
+  font-size: 14px;
+  height: 35px;
+  width: 100px;
+  max-width: 38vw;
+  /*   margin-top: 5px; */
+  cursor: pointer;
+  font-weight: 600;
+  right: 0px !important;
+  position: absolute;
+}
+
+.errorMsg {
+  color: red;
+  position: absolute;
+  bottom: 0;
+  margin: 5px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.bids {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 0px 0px 10px 0px;
+  margin-right: 5px;
+}
+
+.content {
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.1s cubic-bezier(1, 0, 1, 0);
+}
+
+.contentshow {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.1s cubic-bezier(1, 0, 1, 0);
+}
+
+.adressColumn {
+  position: relative;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  margin-left: 4px;
+  margin-right: 10px;
+}
+
+.valuation {
+  display: flex;
+  margin-bottom: 10px;
+}
+.valuation ul {
+  margin-right: 0px;
+  font-size: smaller;
+}
+
+.valuationPlot {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.valuationLinks {
+  flex-direction: column;
+  max-width: 96px;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.valuation li {
+  margin-right: 0px;
+  list-style-type: disc;
+}
+
+.evaluation {
+  display: fixed;
+  justify-content: center;
+  border-radius: 10px;
+  width: 40%;
+  padding: 1px 20px 10px 30px;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  box-shadow: 0.5px 0.5px 2px 1px rgb(0 0 0 / 25%);
+}
+
+.evaluation h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+  font-size: medium;
+}
+
+.evaluation p {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.evaluation ul {
+  justify-content: center;
+  font-size: 14px;
+  margin-right: 0px;
+  padding-left: 0px;
+  /* font-style: italic; */
+}
+
+.about {
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  max-width: 60%;
+}
+
+.about h2 {
+  font-size: large;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: #000000 solid 1px;
+  padding-bottom: 3%;
+}
+
+.about li {
+  font-size: small;
+  padding-top: 2%;
+}
+
+.checkBox {
+  text-align: right;
+}
+
+.item {
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: small;
+  margin-left: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 1px;
+  font-size: medium;
+}
+
+.line {
+  border-top: #000000 solid 1px;
+  left: -30px;
+  position: relative;
+  width: 110%;
+  margin-top: 10%;
+}
+
+.properties {
+  padding-top: 2px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.properties h3 {
+  font-size: medium !important;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 3%;
+  font-size: 16px;
+}
+
+.properties p {
+  font-size: 13px;
+}
+
+.properties li {
+  list-style: auto;
+  font-style: normal;
+  font-weight: 20px;
+  width: 100%;
+  padding-top: 2%;
+}
+
+.contentshow1 {
+  border: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #4cad61;
+  font-size: small;
+}
+
+.contentshow2 {
+  border: 10px;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: small;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.contentshow3 {
+  border: 10px;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: small;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.Views {
+  border: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #4cad61;
+  font-size: small;
+}
+
+.Bids {
+  border: 10px;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: small;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.Saves {
+  border: 10px;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: small;
+  border-radius: 5px;
+  background-color: white;
+}
+.recentBids {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+  height: auto;
+  margin-left: 4px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.recentBids h3 {
+  font-size: medium;
+  text-align: center;
+  padding: 2%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+.recentBids ul {
+  margin: 0;
+  padding: 2px;
+  padding-bottom: 5px;
+}
+
+.recentBids li {
+  background-color: #fff;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 2px;
+  padding-top: 15px;
+  padding-bottom: 3px;
+  padding-left: 26px;
+  border-radius: 5px;
+  height: 50px;
+  font-size: larger;
+}
+
+.statisticsParent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics {
+  display: flex;
+  flex-grow: 4;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  width: auto;
+  height: auto;
+  margin-left: 4px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.statisticsOverlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.statisticsOverlay h2 {
+  margin: 0%;
+  font-size: larger;
+}
+
+.statisticsOverlay h3 {
+  margin: 0%;
+  font-size: large;
+  font-weight: 500;
+}
+
+.statistics h3 {
+  font-size: larger;
+  text-align: left;
+  padding: 10px 0px 0px 26px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.statistics ul {
+  margin: 0;
+  padding: 0 0 0 0;
+  filter: blur(4px);
+}
+
+.statistics li {
+  background-color: #fff;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-top: 15px;
+  padding-bottom: 3px;
+  padding-left: 26px;
+  border-radius: 5px;
+  height: 50px;
+  font-size: larger;
+}
+
+.security {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  width: auto;
+  height: auto;
+  margin-left: 4px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (hover: hover) {
+  .security summary:hover {
+    background-color: #ededed;
+  }
+}
+
+.security summary {
+  font-size: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding-left: 26px;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.security h3 {
+  background-color: #f8f8f8;
+}
+
+.upArrow {
+  margin-right: 10px;
+}
+
+.security div {
+  background-color: #f8f8f8;
+  padding-left: 26px;
+  margin-top: -10px;
+  padding-bottom: 5px;
+}
+
+.security li {
+  margin-top: -10px;
+}
+
+.availablePlotContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.availablePlot {
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 2.5px;
+}
+
+.availablePlot h1 {
+  font-size: 22px;
+  margin: 0%;
+}
+
+.availablePlot h2 {
+  font-size: large;
+  font-weight: 550;
+  margin-top: 9px;
+  margin-bottom: 0%;
+}
+
+.availablePlot h3 {
+  font-size: 15px;
+  color: rgb(203, 203, 203);
+  margin-top: 0%;
+  margin-bottom: 9px;
+  font-weight: 200;
+}
+
+.availableAllThree {
+  margin-left: 20px;
+}
+
+.housePicture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+}
+
+.yourHouse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 2.5px;
+}
+
+.smallHouseImg {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.yourHouse h1 {
+  font-size: 21px;
+  margin-bottom: 0%;
+  margin-top: 15px;
+}
+
+.yourHouse h2 {
+  font-size: 21px;
+  font-weight: 3px;
+  margin-top: 0%;
+  font-weight: 500;
+}
+
+.yourHouseContainer {
+  display: flex;
+}
+
+.greenLink {
+  color: #4cad61;
+  text-decoration: underline;
+  font-weight: 660;
+  cursor: pointer;
+}
+
+.space {
+  min-height: 145px;
+}
+
+@media screen and (max-width: 1300px) {
+  .mainBox {
+    width: 90%;
+  }
+
+  .mainSection {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+  }
+
+  .evaluation {
+    width: 45%;
+  }
+
+  .line {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .mainBox {
+    width: 100%;
+  }
+
+  .evaluation {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .line {
+    left: 0px;
+  }
+
+  .about {
+    max-width: 100%;
+  }
+  .safePurchase {
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .mainSection {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .flexRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .evaluation {
+    width: 100%;
+  }
+
+  .about {
+    margin-right: 0;
+  }
+
+  .line {
+    left: -30px;
+  }
+}

@@ -1,0 +1,236 @@
+/* .container {
+  padding: 0 2rem;
+} */
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #fdf4a4;
+  pointer-events: none;
+}
+
+.registerInfo {
+  position: absolute;
+  top: 85px;
+  background-color: #fff;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+  border: 4px solid #d6ecd8;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70%;
+  max-width: 281px;
+  text-align: center;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.287);
+  backdrop-filter: blur(1px);
+  z-index: 5;
+}
+
+/* temporärt */
+.profile {
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 100%;
+  background-color: white;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.profile:active {
+  background-color: rgba(186, 186, 186, 0.731);
+}
+
+.loginPopUpBox {
+  background-color: #eff3f2;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 170px;
+  width: 493px;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  justify-content: center;
+  border-radius: 0px 0px 30px 30px;
+  z-index: 6;
+}
+
+.loginPopUpBox p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+/* temporary */
+.logout {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  border-radius: 1em;
+  overflow: hidden;
+  max-width: 400px;
+  z-index: 6;
+  padding: 2em;
+}
+
+.logout button {
+  background-color: seagreen;
+  color: white;
+  border: none;
+  border-radius: 0.4em;
+  font-size: 1em;
+  padding: 0.8em 1.8em;
+  margin: 1em 0 0 0;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

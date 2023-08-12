@@ -1,0 +1,96 @@
+/* .tableRow {
+  background-color: hotpink;
+} */
+
+.tableRow > td {
+  font-size: 1.0rem;
+  padding: 1rem 1.3rem;
+  /* background-color: yellow; */
+}
+
+.userViewButton {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2px 5px;
+  margin-top: 9px;
+  background-color: transparent;
+}
+
+.icon {
+  font-size: 1.3rem;
+  padding-top: 5px;
+}
+.popup {
+  max-width: 60%;
+  background-color: #eff3f2;
+}
+
+.closeButton {
+  border: none;
+  background: none;
+  text-align: right;
+}
+
+.popupBlocks {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px;
+}
+
+.popupContentLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1.97243px 2.95865px 1.97243px rgba(0, 0, 0, 0.25);
+}
+
+.popupContentLeft > div {
+  padding: 10px;
+}
+
+.popupContentLeft div:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.popupContentRight {
+  display: block;
+}
+
+.popupContentRight > div {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* for popup id box*/
+.popupContentLeft > td > div {
+  max-width: 20px;
+  max-height: 20px;
+  font-size: xx-small;
+}
+
+.popupContentRight > button {
+  background-color: #40949d;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 5px 8px;
+  margin: 1rem 1rem;
+  margin-top: 6rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bannedStatusBox {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  height: 60px;
+  border-radius: 10%;
+  background-color: #A1A3A2;
+  text-align: center;
+  margin-right: 30px;
+  padding-inline: 10px;
+
+}

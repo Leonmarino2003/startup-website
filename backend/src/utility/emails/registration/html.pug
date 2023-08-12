@@ -1,0 +1,33 @@
+h1 Welcome, We're glad you chose "The smarter way".
+br
+p Thank you for registering. Your account information is as follows:
+p #[strong Username:] #{name} 
+p #[strong Password:] #{password}
+br
+p  Follow the link below to verify your email address and login to your account.
+p  #[a(href='https://app.ploteye.com/verifyemail?code=' + uniqueCodeForLink) https://app.ploteye.com/verifyemail?code=#{uniqueCodeForLink}]
+br
+p You are now part of a community that connects buyers with homeowners across the world.
+p Make your dreams become your reality.
+p You may be searching for your next house, summer house or dreaming about a vacation home.
+br
+p It is this simple:
+ul 
+li 1. Find a place and make your offer 
+li 2. Negotiate the terms with the owner.
+li 3. Sign the contract with your legal support
+br
+//- p Invite a friend and earn more credits to bid for free.
+p The PlotEye app can be customized to fit your needs by visiting 
+  | #[a(href='https://app.ploteye.com/accountsettings') https://app.ploteye.com/accountsettings]
+p If you have questions about how to use PlotEye, including how to submit bids and register plots you own, please visit the Help Center at 
+  | #[a(href='https://ploteye.com/faq') https://ploteye.com/faq]
+br
+//- p Your confirmation code: #{uniqueCodeForLink}
+//- Uncomment the following line to send the verification link to the user
+//- | Click here and login to confirm your email: 
+//- a(href='https://app.ploteye.com/verifyemail?code=' + uniqueCodeForLink) https://app.ploteye.com/verifyemail?code=#{uniqueCodeForLink}
+//- br
+p Our 
+  | #[a(href='https://coconut-octahedron-jt6r.squarespace.com/privacy-policy') Privacy Policy]
+  | explains how we protect your price and save bids and ownership details.

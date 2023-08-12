@@ -1,0 +1,96 @@
+.rows {
+  background-color: white;
+  
+
+  
+}
+
+.rows > td {
+  padding: 1.5rem 2rem;
+  max-width: 50%;
+ /*background-color: aquamarine;*/
+ align-self: center;
+ text-align: center;
+}
+.rows > td > div {
+  margin-right: auto;
+
+margin-left: auto;
+
+}
+
+
+.popup {
+  max-width: 60%;
+  background-color: #eff3f2;
+}
+
+.closeButton {
+  border: none;
+  background: none;
+  text-align: right;
+}
+
+.popupBlocks {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px;
+}
+
+.popupContentLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1.97243px 2.95865px 1.97243px rgba(0, 0, 0, 0.25);
+}
+
+.popupContentLeft > div {
+  padding: 10px;
+}
+
+.popupContentLeft div:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.popupContentRight {
+  display: block;
+}
+
+.popupContentRight > div {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.popupContentRight > button {
+  /*background-color: #40949D;*/
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@media (max-width: 1500px){
+  .rows > td{
+    font-size: 0.8rem;
+    padding: 0.2rem 0.2rem;
+  }
+}
+
+@media (max-width: 1000px){
+  .rows > td{
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .rows > td{
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: fit-content;
+  }
+  
+}

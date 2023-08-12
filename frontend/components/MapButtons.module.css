@@ -1,0 +1,77 @@
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 42px;
+  position: absolute;
+  top: 200px;
+  right: 4.5vh;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 5;
+  outline: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.buttonContainer button {
+  height: 42px;
+  width: 42px;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.buttonContainer button:active {
+  background-color: rgba(186, 186, 186, 0.731);
+}
+
+.buttonContainer button:first-child {
+  border-bottom: 0.5px rgba(0, 0, 0, 0.19) solid;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+  margin-top: 0;
+  color: black;
+}
+
+.layers {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 130px;
+  right: 4.5vh;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 5;
+  height: 42px;
+  width: 42px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  outline: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.layers:active {
+  background-color: rgba(186, 186, 186, 0.731);
+}
+
+
+.locate {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 312px;
+  right: 4.5vh;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 5;
+  height: 42px;
+  width: 42px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  outline: 2px solid rgba(0, 0, 0, 0.1);
+}

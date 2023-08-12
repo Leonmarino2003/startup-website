@@ -1,0 +1,229 @@
+
+.contentFrame {
+    /*width: 1240/19.2vw;
+    height: 1020/19.2vw;
+    margin-left: calc(340/1920*100vw);*/    
+    width: 1240px;
+    height: 1020px;
+    margin-left: 340px;
+    margin-bottom: 130px;
+    background-color: #EFF3F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /*display: flex;
+    flex-direction: row;
+    align-items: flex-start;*/
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 0.2fr;
+    grid-template-areas:
+    ". . button";
+    position: relative;
+    padding-left: 75px;
+}
+
+
+
+.titleText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.dataText{  
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.pairFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 29px;
+}
+
+.columnFrame{
+    width : 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 65px;
+    margin-top: 40px;
+    margin-left: 125px;
+}
+
+
+.currentStatusFrame{
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    /*gap: 10px;*/
+    background: #40949D;
+    border-right: 1px solid #000000;
+}
+
+
+.alternativeStatusButton{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    /*gap: 10px;*/
+    background: #EFF3F2;
+    border-right: 1px solid #000000;
+}
+
+
+.headerBox{
+    display: flex;
+    flex-direction: line;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+
+.buttonText{
+    width: 95px;
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.acceptButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 18px;
+    gap: 10px;
+    background: #4CAD61;
+    border-radius: 5px;
+    width: 217px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 125px;
+    border: none;
+}
+
+
+.denyButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 18px;
+    gap: 10px;
+    background: #393939;
+    border-radius: 5px;
+    width: 217px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 125px;
+    border: none;
+}
+
+
+.bidStatusText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+}
+
+
+
+.dotsButtonArea{
+    grid-area: button;
+    justify-self: end;
+    align-self: start;
+}
+
+
+.dotsButtonMenu{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+
+.dotsButton{
+    justify-self: end;
+    align-self: start;
+    margin-top: 10.5px;
+    margin-right: 10.5px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+.innerDotsButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+
+.dotsMenuButton {
+    background: none;
+    border: none;
+    padding: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+  }
+
+.bidAcceptedText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    margin-top: 100px;
+}

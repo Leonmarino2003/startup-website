@@ -1,0 +1,120 @@
+.container {
+  padding: 0.5rem 0 0.5rem 0;
+  height: 365px;
+  overflow-y: scroll;
+}
+
+.streetSection {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 0 1rem 0.5rem 1rem;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.streetSection .circleImageContainer {
+  background-color: #fafafa;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  border: 3px solid #f2f2f2;
+}
+
+.streetSection .houseIcon {
+  color: #f2f2f2;
+  font-size: 3rem;
+}
+
+.streetSection h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 5px;
+  color: #4cad61;
+}
+.streetSection p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 5px;
+  color: #000000;
+}
+
+.imageSection {
+  padding: 0.5rem;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.imageSection .squareImageContainer {
+  height: 125px;
+  min-width: 125px;
+  background-color: #000000;
+  overflow: hidden;
+  border: 3px solid #f2f2f2;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.imageSection img {
+  height: 125px;
+  width: 125px;
+  object-fit: cover;
+}
+
+.houseFacts {
+  background-color: #fafafa;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.houseFacts .fact {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.houseFacts .fact p:nth-child(1) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+.houseFacts .fact p:nth-child(2) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.descriptionField {
+  background-color: #fafafa;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.descriptionField p {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #a1a3a2;
+}

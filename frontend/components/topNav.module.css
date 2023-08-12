@@ -1,0 +1,150 @@
+.topNav {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  z-index: 19;
+  background-color: white;
+  max-height: 80px;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+  top: env(safe-area-inset-top);
+}
+
+.profileImg {
+  margin-right: 14rem;
+}
+
+.buttonWrapper {
+  justify-content: space-between;
+  margin: 10px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+}
+
+.loginBtn {
+  border-radius: 10px;
+  background: var(--darkgreen);
+  border: none;
+  font-size: 15px;
+  color: #fbfbfb;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.loginBtn:hover {
+  background-color: rgb(0, 139, 0);
+}
+
+.registerBtn {
+  border: solid 2px var(--darkgreen);
+  border-radius: 10px;
+  /* height: 30px; */
+  font-size: 15px;
+  color: var(--darkgreen);
+  font-weight: 600;
+  padding: 10px 20px;
+  background: white;
+}
+
+.navBar li {
+  margin-right: 20px;
+  line-height: 2;
+  padding: 5px 10px;
+  /* transition: background-color 0.3s ease-in-out; */
+}
+.navBar li:hover {
+  background-color: #333 !important;
+  color: #f2f2f2 !important;
+  border-radius: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8.25rem;
+  background-color: #393939;
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: white;
+  border: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.menu:hover {
+  cursor: pointer;
+  background-color: #4d4d4d;
+}
+
+.menu:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.menu p {
+  margin: 0;
+  font-size: 15px;
+  padding-right: 7px;
+  padding-left: 6px;
+  user-select: none;
+}
+
+.hamIcon {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+}
+
+.hamMenu {
+  display: none;
+}
+
+.hamMenu button {
+  border: none;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+@media (max-width: 640px) {
+  .menu {
+    display: none;
+  }
+  .hamMenu {
+    display: flex;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+  }
+  .navigator {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+  }
+  .topNav {
+    height: 50px;
+  }
+
+  .rotated {
+    transform: rotateZ(90deg);
+    /* animation: .6s ease myRotate; */
+  }
+
+  @keyframes myRotate {
+    0% {
+      transform: rotateZ(-90deg);
+    }
+    100% {
+      transform: rotateZ(-90deg);
+    }
+  }
+}

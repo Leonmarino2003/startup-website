@@ -1,0 +1,128 @@
+.componentContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.background {
+  z-index: 8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.287);
+  backdrop-filter: blur(1px);
+}
+
+.splashWrapper {
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  justify-content: space-around;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  width: 100% !important;
+}
+
+.mySwiper {
+  width: 70%;
+  height: 70vh;
+  align-self: center;
+  background-color: aliceblue;
+}
+
+.centerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+.h1 {
+  font-size: 2.5em;
+  color: #363636;
+}
+
+.fifthCardPhoto {
+  position: absolute;
+  left: 3%;
+  top: 8%;
+  z-index: 10;
+}
+
+.leftCorner {
+  background-color: rgba(76, 173, 97, 1);
+  height: 140px;
+  width: 125px;
+  border-radius: 0 0 125px 0;
+  border-right: 10px solid rgba(101, 183, 105, 1);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rightCorner {
+  background-color: rgba(76, 173, 97, 1);
+  height: 140px;
+  width: 125px;
+  border-radius: 125px 0 0px 0px;
+  border-top: solid 10px rgb(101 183 105);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.welcomeText {
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  color: #363636;
+}
+
+@media screen and (max-width: 620px) {
+  /*  First slide */
+
+  .welcomeText {
+    font-size: 14px;
+    /* text-align: center; */
+    width: 80%;
+
+    margin-bottom: 50px;
+  }
+
+  .centerSection span {
+    max-width: 80% !important;
+  }
+
+  .h1 {
+    font-size: 1.5em;
+    margin-block-end: -50px;
+    margin-block-start: 100px;
+    left: 40px;
+    position: relative;
+  }
+
+  /*  Third slide */
+
+  .logo_third {
+    margin-top: 0px !important;
+    min-width: 60% !important;
+    left: 100px !important;
+  }
+
+  .pic_lady {
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .third_text {
+    max-width: 70%;
+    font-size: 14px;
+  }
+}
